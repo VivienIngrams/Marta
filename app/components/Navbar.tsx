@@ -13,8 +13,8 @@ const Navbar: React.FC = () => {
 
   useEffect(() => {
     const handleNavBg = () => {
-        if (window.scrollY >= 900) {
-        setNavBg('#b3d9ff')
+        if(window.scrollY >= 500) {
+        setNavBg('rgb(179,217,255,0.8)')
       } else {
         setNavBg('transparent')
       }
@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
               <HiOutlineMenuAlt1
                 size={25}
                 onClick={handleNav}
-                className="md:hidden"
+                className="md:hidden -mt-4"
               />
             </div>
         <div
