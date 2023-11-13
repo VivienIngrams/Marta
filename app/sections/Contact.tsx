@@ -1,16 +1,17 @@
-import Image from "next/image";
+
 import Link from "next/link";
 
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import { TypingText } from "../components/CustomTexts";
 
 const Contact: React.FC = () => {
   return (
     <div id="contact" className="w-full lg:h-screen font-raj py-20 text-cyan-600">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <div className=" pb-12 tracking-widest uppercase font-poiret font-bold text-3xl text-center">
-          Contact
+        <TypingText title="|Contacto" textStyles="text-center" />
         </div>
         {/* left */}
         <div className="grid lg:grid-cols-5 gap-8">

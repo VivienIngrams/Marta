@@ -1,14 +1,29 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 import { AiOutlineClose } from "react-icons/ai";
-import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { HiOutlineMenuAlt1 } from "react-icons/hi";
 
 const Navbar: React.FC = () => {
   const [nav, setNav] = useState(false);
+  const [navBg, setNavBg] = useState("transparent");
+
+  useEffect(() => {
+    const handleNavBg = () => {
+        if (window.scrollY >= 900) {
+        setNavBg('#b3d9ff')
+      } else {
+        setNavBg('transparent')
+      }
+    }
+    window.addEventListener('scroll', handleNavBg)
+    return () => {
+      window.removeEventListener('scroll', handleNavBg);
+    }
+  }, []);
 
   const handleNav = () => {
     setNav(!nav);
@@ -16,41 +31,43 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="fixed w-full h-100 font-gilda tracking-widest font-bold text-cyan-600 z-[100]">
-        <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-          <div className="relative w-[120px] h-[60px] md:w-[250px] md:h-[70px]">
-          <Image src="/Logo.png" alt="Logo" width={200} height={200} />
+      <nav  style={{backgroundColor: `${navBg}`}} className="fixed w-full h-100 font-pt tracking-widest font-semibold text-cyan-700 z-[100]">
+        <div className="flex justify-center items-center w-full h-full p-4 2xl:px-16">
+            <div>
+            <ul className="hidden md:flex">
+              <Link href="/">
+                <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              </Link>
+              <Link href="/about">
+                <li className="ml-20 text-sm uppercase hover:border-b">
+                  About
+                </li>
+              </Link>
+              <Link href="/psicoterapia">
+                <li className="ml-20 text-sm uppercase hover:border-b">
+                 Psicoterapia
+                </li>
+              </Link>
+              <Link href="/coaching">
+                <li className="ml-20 text-sm uppercase hover:border-b">
+                  Coaching
+                </li>
+              </Link>
+              <Link href="/#contact">
+                <li className="ml-20 text-sm uppercase hover:border-b">
+                  Contact
+                </li>
+              </Link>
+            </ul>
           </div>
-          <ul className="hidden md:flex">
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
-            </Link>
-            <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
-            </Link>
-            <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
-            </Link>
-            <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Projects
-              </li>
-            </Link>
-            <Link href="/#contact">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Contact
-              </li>
-            </Link>
-          </ul>
         </div>
-        <div>
-          <HiOutlineMenuAlt3
-            size={25}
-            onClick={handleNav}
-            className="md:hidden"
-          />
-        </div>
-
+            <div>
+              <HiOutlineMenuAlt1
+                size={25}
+                onClick={handleNav}
+                className="md:hidden"
+              />
+            </div>
         <div
           className={
             nav
@@ -81,7 +98,7 @@ const Navbar: React.FC = () => {
                   Home
                 </li>
               </Link>
-              <Link href="/#About">
+              <Link href="/about">
                 <li
                   className="py-5 text-sm uppercase hover:border-b"
                   onClick={handleNav}
@@ -89,7 +106,7 @@ const Navbar: React.FC = () => {
                   About
                 </li>
               </Link>
-              <Link href="/#Psicoterapia">
+              <Link href="/psicoterapia">
                 <li
                   className="py-5 text-sm uppercase hover:border-b"
                   onClick={handleNav}
@@ -97,7 +114,7 @@ const Navbar: React.FC = () => {
                   Psicoterapia
                 </li>
               </Link>
-              <Link href="/#Coaching">
+              <Link href="/coaching">
                 <li
                   className="py-5 text-sm uppercase hover:border-b"
                   onClick={handleNav}
