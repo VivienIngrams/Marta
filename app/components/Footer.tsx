@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
         </div>
         <a
           href="/#Contact"
-          className="mb-2 flex flex-col items-center uppercase leading-10 text-cyan-600 space-x-2 text-sm "
+          className="mb-2 flex flex-col items-center uppercase leading-10 text-cyan-700 space-x-2 text-sm "
         >
           Marque jà uma consulta
         </a>

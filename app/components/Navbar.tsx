@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
 
   useEffect(() => {
     const handleNavBg = () => {
-        if(window.scrollY >= 500) {
+        if(window.scrollY >= 900) {
         setNavBg('rgb(179,217,255,0.8)')
       } else {
         setNavBg('transparent')
@@ -31,8 +31,8 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav  style={{backgroundColor: `${navBg}`}} className="fixed w-full h-100 font-pt tracking-widest font-semibold text-cyan-700 z-[100]">
-        <div className="flex justify-center items-center w-full h-full p-4 2xl:px-16">
+      <nav  style={{backgroundColor: `${navBg}`}} className="fixed w-full h-100 font-gilda tracking-widest font-semibold text-cyan-800 z-[100]">
+        <div className=" relative flex justify-center items-center w-full h-full p-4 2xl:px-16">
             <div>
             <ul className="hidden md:flex">
               <Link href="/">
@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
         <div
           className={
             nav
-              ? "fixed right-0 top-0 w-[100%] sm:w-[100%] tracking-widest h-screen ease-in duration-800  bg-cyan-600 text-[#b3d9ff] z-50"
+              ? "fixed right-0 top-0 w-[100%] sm:w-[100%] tracking-widest h-screen ease-in duration-800  bg-cyan-700 text-[#b3d9ff] z-50"
               : "fixed right-[-150%] top-0 p-10 ease-in duration-800"
           }
         >
@@ -84,7 +84,7 @@ const Navbar: React.FC = () => {
                 onClick={handleNav}
                 className="rounded-full p-1 m-2 cursor-pointer"
               >
-                <AiOutlineClose size={25} color="cyan-600" />
+                <AiOutlineClose size={25} color="cyan-700" />
               </div>
             </div>
           </div>

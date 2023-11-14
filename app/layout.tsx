@@ -1,8 +1,5 @@
 import "./globals.css";
 import { PT_Sans, Poiret_One, Gilda_Display } from "next/font/google";
-import Image from "next/image";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 
 const pt = PT_Sans({
   weight: ["400"],
@@ -16,7 +13,7 @@ const poiret = Poiret_One({
   subsets: ["latin"],
   preload: false,
 });
-const gilda = Gilda_Display({ 
+const gilda = Gilda_Display({
   weight: ["400"],
   variable: "--font-gilda-display",
   subsets: ["latin"],
@@ -38,9 +35,7 @@ export default function RootLayout({
       <body
         className={`min-h-screen ${pt.variable} ${gilda.variable} ${poiret.variable} bg-[#b3d9ff]`}
       >
-        <Navbar />
         <main className="">{children}</main>
-        <Footer />
       </body>
     </html>
   );
