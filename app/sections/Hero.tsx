@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Hero = () => (
   <section id="Hero" className=" text-cyan-700 sm:py-16 xs:py-8 py-12">
-    <div className=" w-[100%]">
+    <div className="">
       {/* Unsplash image */}
       <div className=" w-full">
         <Image

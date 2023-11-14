@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
   useEffect(() => {
     const handleNavBg = () => {
         if(window.scrollY >= 900) {
-        setNavBg('rgb(179,217,255,0.8)')
+        setNavBg('rgb(203,224,246,0.7)')
       } else {
         setNavBg('transparent')
       }
@@ -78,7 +78,7 @@ const Navbar: React.FC = () => {
           <div>
             <div className="flex w-full p-2 items-center justify-between">
               <Link href="/" onClick={handleNav}>
-                <Image src="/Logo.png" alt="Logo" width={100} height={50} />
+                <Image src="/Logo-dark.png" alt="Logo" width={100} height={50} />
               </Link>
               <div
                 onClick={handleNav}

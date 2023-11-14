@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`min-h-screen ${pt.variable} ${gilda.variable} ${poiret.variable} bg-[#b3d9ff]`}
+        className={`min-h-screen w-[100%] ${pt.variable} ${gilda.variable} ${poiret.variable} bg-[#b3d9ff]`}
       >
         <Navbar />
         <main className="">{children}</main>

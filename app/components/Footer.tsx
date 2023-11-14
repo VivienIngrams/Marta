@@ -1,27 +1,30 @@
 import React from "react";
-
 import Image from "next/image";
-import { BsInstagram } from "react-icons/bs";
 
 const Footer: React.FC = () => {
   return (
     <footer>
-      <div className="flex flex-col items-center pt-12">
-        <div className=" flex space-x-4">
-          <a
-            target="_blank"
-            href="https://www.instagram.com/"
-            rel="noopener noreferrer"
-          >
-            <BsInstagram size={25} color="#0d9488" />
-          </a>
+      <div className="flex flex-col items-center -my-10 bg-cyan-700 font-gilda text-[#B3D9FF]">
+        <div className="flex flex-row justify-center items-center space-x-5">
+          <p className="hidden md:block md:ml-20">+351 965 421 000</p>
+          <Image
+            src="/Logo-dark.png"
+            alt="Logo"
+            width={200}
+            height={200}
+            className="-pt-5 overflow-hidden"
+          />
+          <div className="flex flex-col items-start justify-center">
+            <p className="py-2 md:hidden">+351 965 421 000</p>
+            <a
+              href="mailto:martaguimaraes@gmail.com"
+              className="py-2"
+              target="_blank"
+            >
+              martaguimaraes@gmail.com
+            </a>
+          </div>
         </div>
-        <a
-          href="/#Contact"
-          className="mb-2 flex flex-col items-center uppercase leading-10 text-cyan-700 space-x-2 text-sm "
-        >
-          Marque jà uma consulta
-        </a>
       </div>
     </footer>
   );
