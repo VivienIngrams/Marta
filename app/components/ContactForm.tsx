@@ -28,7 +28,7 @@ const ContactForm: React.FC = () => {
     <form onSubmit={handleSubmit}>
         <div className="flex flex-col">
           <label htmlFor="name" className=" text-sm py-2">
-            Name
+            Nome
           </label>
           <input
             id="name"
@@ -58,7 +58,7 @@ const ContactForm: React.FC = () => {
       </div>
       <div className="flex flex-col py-2">
         <label htmlFor="subject" className=" text-sm py-2">
-          Subject
+          Assunto
         </label>
         <input
           id="subject"
@@ -70,7 +70,7 @@ const ContactForm: React.FC = () => {
       </div>
       <div className="flex flex-col py-2">
         <label htmlFor="message" className=" text-sm py-2">
-          Message
+          Mensagem
         </label>
         <textarea
           id="message"
@@ -88,7 +88,7 @@ const ContactForm: React.FC = () => {
           type="submit"
           className=" p-2 mt-4 text shadow-md rounded-3xl text-sky-100 shadow-gray-400   bg-cyan-700"
         >
-          Send Message
+          Enviar mensagem
         </button>
       </div>
     </form>

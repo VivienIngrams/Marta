@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
       id="Contact"
       className="w-full lg:min-h-screen font-raj py-20 text-cyan-700"
     >
-      <div className="max-w-[1240px] m-auto px-2 w-full">
+      <div className="max-w-[1240px] m-auto px-2 w-[70%] ">
         <div className=" pb-12 tracking-widest uppercase font-poiret font-bold text-3xl text-center">
           <TypingText title="|Contacto" textStyles="text-center" />
         </div>
@@ -23,12 +23,6 @@ const Contact: React.FC = () => {
           </div>
           {/* right */}
           <div className="col-span-2  w-full h-full ">
-            <div className="m-4">
-              <p className="pt-1 font-pt font-bold text-md">
-                Psicoterapia e coaching
-              </p>
-              <p className="pt-6 font-pt">Online e presencial no Porto</p>
-            </div>
             <div>
               <div className="flex flex-col  p-3">
                 <div className="flex m-4">
