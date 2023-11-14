@@ -1,3 +1,5 @@
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 import "./globals.css";
 import { PT_Sans, Poiret_One, Gilda_Display } from "next/font/google";
 
@@ -35,7 +37,9 @@ export default function RootLayout({
       <body
         className={`min-h-screen ${pt.variable} ${gilda.variable} ${poiret.variable} bg-[#b3d9ff]`}
       >
+        <Navbar />
         <main className="">{children}</main>
+        <Footer />
       </body>
     </html>
   );
