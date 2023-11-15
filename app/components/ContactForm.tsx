@@ -27,7 +27,7 @@ const ContactForm: React.FC = () => {
   return (
     <form onSubmit={handleSubmit}>
         <div className="flex flex-col">
-          <label htmlFor="name" className=" text-sm py-2">
+          <label htmlFor="name" className=" text-lg py-2">
             Nome
           </label>
           <input
@@ -42,7 +42,7 @@ const ContactForm: React.FC = () => {
           />
         </div>
       <div className="flex flex-col py-2">
-        <label htmlFor="email" className=" text-sm py-2">
+        <label htmlFor="email" className=" text-lg py-2">
           Email
         </label>
         <input
@@ -57,7 +57,7 @@ const ContactForm: React.FC = () => {
         />
       </div>
       <div className="flex flex-col py-2">
-        <label htmlFor="subject" className=" text-sm py-2">
+        <label htmlFor="subject" className=" text-lg py-2">
           Assunto
         </label>
         <input
@@ -69,7 +69,7 @@ const ContactForm: React.FC = () => {
         />
       </div>
       <div className="flex flex-col py-2">
-        <label htmlFor="message" className=" text-sm py-2">
+        <label htmlFor="message" className=" text-lg py-2">
           Mensagem
         </label>
         <textarea
@@ -86,7 +86,7 @@ const ContactForm: React.FC = () => {
       <div className="flex flex-col items-center">
         <button
           type="submit"
-          className=" p-2 mt-4 text shadow-md rounded-3xl text-sky-100 shadow-gray-400   bg-cyan-700"
+          className=" p-2 mt-4 text-md shadow-md rounded-3xl text-sky-100 shadow-gray-400   bg-cyan-700"
         >
           Enviar mensagem
         </button>

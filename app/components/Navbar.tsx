@@ -31,30 +31,30 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav  style={{backgroundColor: `${navBg}`}} className="fixed w-full h-100 font-gilda tracking-widest font-semibold text-cyan-800 z-[100]">
+      <nav  style={{backgroundColor: `${navBg}`}} className="fixed w-full h-100 font-cormorant uppercase tracking-widest font-semibold text-cyan-800 z-[100]">
         <div className=" relative flex justify-center items-center w-full h-full p-4 2xl:px-16">
             <div>
             <ul className="hidden md:flex">
               <Link href="/">
-                <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+                <li className="ml-10 text-md  hover:border-b">Home</li>
               </Link>
               <Link href="/about">
-                <li className="ml-20 text-sm uppercase hover:border-b">
+                <li className="ml-20 text-md  hover:border-b">
                   About
                 </li>
               </Link>
               <Link href="/psicoterapia">
-                <li className="ml-20 text-sm uppercase hover:border-b">
+                <li className="ml-20 text-md  hover:border-b">
                  Psicoterapia
                 </li>
               </Link>
               <Link href="/coaching">
-                <li className="ml-20 text-sm uppercase hover:border-b">
+                <li className="ml-20 text-md  hover:border-b">
                   Coaching
                 </li>
               </Link>
               <Link href="/#contact">
-                <li className="ml-20 text-sm uppercase hover:border-b">
+                <li className="ml-20 text-md  hover:border-b">
                   Contact
                 </li>
               </Link>
@@ -92,7 +92,7 @@ const Navbar: React.FC = () => {
             <ul>
               <Link href="/">
                 <li
-                  className="py-5 text-sm uppercase hover:border-b"
+                  className="py-5 text-md  hover:border-b"
                   onClick={handleNav}
                 >
                   Home
@@ -100,7 +100,7 @@ const Navbar: React.FC = () => {
               </Link>
               <Link href="/about">
                 <li
-                  className="py-5 text-sm uppercase hover:border-b"
+                  className="py-5 text-md  hover:border-b"
                   onClick={handleNav}
                 >
                   About
@@ -108,7 +108,7 @@ const Navbar: React.FC = () => {
               </Link>
               <Link href="/psicoterapia">
                 <li
-                  className="py-5 text-sm uppercase hover:border-b"
+                  className="py-5 text-md  hover:border-b"
                   onClick={handleNav}
                 >
                   Psicoterapia
@@ -116,7 +116,7 @@ const Navbar: React.FC = () => {
               </Link>
               <Link href="/coaching">
                 <li
-                  className="py-5 text-sm uppercase hover:border-b"
+                  className="py-5 text-md  hover:border-b"
                   onClick={handleNav}
                 >
                   Coaching
@@ -124,7 +124,7 @@ const Navbar: React.FC = () => {
               </Link>
               <Link href="/#Contact">
                 <li
-                  className="py-5 text-sm uppercase hover:border-b"
+                  className="py-5 text-md  hover:border-b"
                   onClick={handleNav}
                 >
                   Contacto

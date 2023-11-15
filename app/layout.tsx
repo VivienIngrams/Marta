@@ -1,7 +1,7 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import "./globals.css";
-import { PT_Sans, Poiret_One, Gilda_Display } from "next/font/google";
+import { PT_Sans, Cormorant_Garamond, } from "next/font/google";
 
 const pt = PT_Sans({
   weight: ["400"],
@@ -9,18 +9,13 @@ const pt = PT_Sans({
   subsets: ["latin"],
   preload: false,
 });
-const poiret = Poiret_One({
+const cormorant = Cormorant_Garamond({
   weight: ["400"],
-  variable: "--font-poiret-one",
+  variable: "--font-cormorant-garamond",
   subsets: ["latin"],
   preload: false,
 });
-const gilda = Gilda_Display({
-  weight: ["400"],
-  variable: "--font-gilda-display",
-  subsets: ["latin"],
-  preload: false,
-});
+
 
 export const metadata = {
   title: "Marta Guimarães",
@@ -35,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`min-h-screen w-[100%] ${pt.variable} ${gilda.variable} ${poiret.variable} bg-[#b3d9ff]`}
+        className={`min-h-screen w-[100%] ${pt.variable} ${cormorant.variable} bg-[#b3d9ff]`}
       >
         <Navbar />
         <main className="">{children}</main>

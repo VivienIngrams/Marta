@@ -10,8 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         pt: ["var(--font-pt-sans)"],
-        poiret: ["var(--font-poiret-one)"],
-        gilda: ["var(--font-gilda-display)"],
+        cormorant: ["var(--font-cormorant-garamond)"],
       },
     },
   },
