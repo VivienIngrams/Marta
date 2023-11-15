@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Hero = () => (
-  <section id="Hero" className=" text-cyan-700 sm:py-16 xs:py-8 py-12">
+  <section id="Hero" className=" text-cyan-700">
     <div className="">
       {/* Unsplash image */}
       <div className=" w-full" style={{ backgroundPosition: 'center bottom' }}>
@@ -13,11 +13,11 @@ const Hero = () => (
           height={700}
           alt="background image"
         />
-        <div className="absolute top-0 left-0 w-full min-h-screen bg-cover bg-[rgb(179,217,255,0.4)]" />
+        <div className="absolute top-0 left-0 w-full min-h-screen bg-cover bg-[rgb(179,217,255,0.6)]" />
 
         {/* Logo overlay */}
         <div className="relative top-0 left-0 w-full min-h-screen flex items-center justify-center">
-          <div className="-translate-y-1/2">
+          <div className="-translate-y-1/3">
             <Link href="/">
               <Image
                 src="/Logo-removebg.png"

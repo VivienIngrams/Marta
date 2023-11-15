@@ -1,11 +1,11 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import "./globals.css";
-import { PT_Sans, Cormorant_Garamond, } from "next/font/google";
+import { Raleway, Cormorant_Garamond, } from "next/font/google";
 
-const pt = PT_Sans({
+const raleway = Raleway({
   weight: ["400"],
-  variable: "--font-pt-sans",
+  variable: "--font-raleway",
   subsets: ["latin"],
   preload: false,
 });
@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`min-h-screen w-[100%] ${pt.variable} ${cormorant.variable} bg-[#b3d9ff]`}
+        className={`min-h-screen w-[100%] ${raleway.variable} ${cormorant.variable} bg-[#b3d9ff]`}
       >
         <Navbar />
         <main className="">{children}</main>
