@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`min-h-screen w-[100%] ${raleway.variable} ${cormorant.variable} bg-[#b3d9ff]`}
+        className={`min-h-screen w-[100%] ${raleway.variable} ${cormorant.variable} bg-[rgb(203,224,246)]`}
       >
         <Navbar />
         <main className="">{children}</main>
