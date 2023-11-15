@@ -9,9 +9,9 @@ const About = () => (
     className="relative z-10  font-normal md:text-[24px] sm:text-[20px] text-[16px] text-center text-cyan-700 h-screen"
   >
     <div className="relative w-full h-[200px] bg-cyan-700">
-      <div className="absolute -bottom-1 left-0 w-full overflow-hidden">
+      <div className="absolute -bottom-[1px] left-0 w-full overflow-hidden">
         <svg
-          className="relative block h-[40px] w-full"
+          className="relative block h-[20px] md:h-[40px] w-full"
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"

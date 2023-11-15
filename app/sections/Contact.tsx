@@ -2,21 +2,20 @@ import Link from "next/link";
 
 import { AiOutlineMail } from "react-icons/ai";
 import { BsTelephoneFill, BsInstagram } from "react-icons/bs";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import { TypingText } from "../components/CustomTexts";
 import ContactForm from "../components/ContactForm";
 
 const Contact: React.FC = () => {
   return (
     <div
-      id="Contact"
+      id="contact"
       className="w-full lg:min-h-screen font-raj py-20  text-md md:text-xl text-cyan-700"
     >
       <div className="max-w-[1240px] m-auto px-2 w-[70%] ">
         <div className=" pb-12 tracking-widest uppercase font-cormorant font-bold text-3xl text-center">
           <TypingText title="Contacto" textStyles="text-center" />
         </div>
-            <div className="my-4">Marque jà a sua consulta...</div>
+            <p className="my-4 text-center w-full ">Marque jà a sua consulta...</p>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* left */}
           <div className="md:col-span-2 max-w-screen md:w-full ">
