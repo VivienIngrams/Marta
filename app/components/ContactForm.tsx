@@ -25,7 +25,7 @@ const ContactForm: React.FC = () => {
     }
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="max-w-md mx-auto">
         <div className="flex flex-col">
           <label htmlFor="name" className=" text-lg py-2">
             Nome

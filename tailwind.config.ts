@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        raleway: ["var(--font-raleway)"],
+        quicksand: ["var(--font-quicksand)"],
         cormorant: ["var(--font-cormorant-garamond)"],
       },
     },

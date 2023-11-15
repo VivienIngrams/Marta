@@ -17,15 +17,15 @@ const Contact: React.FC = () => {
           <TypingText title="Contacto" textStyles="text-center" />
         </div>
             <div className="my-4">Marque jà a sua consulta...</div>
-        <div className="grid lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* left */}
-          <div className="col-span-2 w-full ">
+          <div className="md:col-span-2 max-w-screen md:w-full ">
             <ContactForm />
           </div>
           {/* right */}
-          <div className="col-span-2 w-full h-full ">
+          <div className="md:col-span-2 w-full h-full ">
             <div>
-              <div className="flex flex-col justify-center md:ml-16 md:mt-20 p-3">
+              <div className="flex flex-col justify-start -ml-6 md:ml-16 md:mt-20 p-3">
                 <div className="flex m-3">
                   <div className="rounded-full border-[1px] border-cyan-700 p-3 cursor-pointer hover:scale-105 ease-in duration-300 m-2">
                     <a href="mailto:martaguimaraes@gmail.com" target="_blank">
@@ -53,7 +53,7 @@ const Contact: React.FC = () => {
                 <div className="flex m-3">
                   <div className="rounded-full border-[1px] border-cyan-700 p-3 cursor-pointer hover:scale-105 ease-in duration-300 m-2">
                     <a
-                      href="https://instagram.com/@martaguimaraes.psi"
+                      href="https://instagram.com/martaguimaraes.psi"
                       target="_blank"
                     >
                       <BsInstagram />

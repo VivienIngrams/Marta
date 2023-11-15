@@ -1,11 +1,11 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import "./globals.css";
-import { Raleway, Cormorant_Garamond, } from "next/font/google";
+import { Quicksand, Cormorant_Garamond, } from "next/font/google";
 
-const raleway = Raleway({
+const quicksand = Quicksand({
   weight: ["400"],
-  variable: "--font-raleway",
+  variable: "--font-quicksand",
   subsets: ["latin"],
   preload: false,
 });
@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`min-h-screen w-[100%] ${raleway.variable} ${cormorant.variable} bg-[rgb(203,224,246)]`}
+        className={`min-h-screen w-[100%] ${quicksand.variable} ${cormorant.variable} bg-[rgb(203,224,246)]`}
       >
         <Navbar />
         <main className="">{children}</main>
