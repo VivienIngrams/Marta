@@ -6,12 +6,12 @@ import { TypingText } from "../components/CustomTexts";
 const About = () => (
   <section
     id="About"
-    className="relative z-10  font-normal md:text-[24px] sm:text-[20px] text-[16px] text-center text-cyan-700 h-screen"
+    className="relative z-10  font-normal lg:text-[24px] sm:text-[20px] text-[16px] text-center text-cyan-700 h-screen"
   >
     <div className="relative w-full h-[200px] bg-cyan-700">
       <div className="absolute -bottom-[1px] left-0 w-full overflow-hidden">
         <svg
-          className="relative block h-[20px] md:h-[40px] w-full"
+          className="relative block h-[20px] lg:h-[40px] w-full"
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"
@@ -35,13 +35,13 @@ const About = () => (
       <div className="grid lg:grid-cols-4 gap-8 py-10">
         {/* left */}
         <div className="col-span-2 w-full flex items-center justify-center ">
-          <div className="md:pb-12 tracking-widest uppercase  text-6xl text-center">
+          <div className="lg:pb-12 tracking-widest uppercase  text-6xl text-center">
             <TypingText title="Marta Guimarães" textStyles="text-center" />
           </div>
         </div>
         <div className="col-span-2 w-full ">
           {/* right */}
-          <div className="text-left md:py-16 tracking-widest font-extralight md:mr-16 m-4">
+          <div className="text-left lg:py-16 tracking-widest lg:mr-16 m-8">
             Está na hora de iniciar uma jornada de autodescoberta e crescimento
             pessoal com a orientação especializada de Marta Guimarães. Como
             profissional comprometida, Marta integra a abordagem psicológica com

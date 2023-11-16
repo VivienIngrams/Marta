@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
       <nav  style={{backgroundColor: `${navBg}`}} className="fixed w-full h-100 font-cormorant uppercase tracking-widest font-semibold text-cyan-800 z-[100]">
         <div className=" relative flex justify-center items-center w-full h-full p-4 2xl:px-16">
             <div>
-            <ul className="hidden md:flex">
+            <ul className="hidden lg:flex">
               <Link href="/">
                 <li className="ml-10 text-md  hover:border-b">Home</li>
               </Link>
@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
               <HiOutlineMenuAlt1
                 size={25}
                 onClick={handleNav}
-                className="md:hidden -mt-4"
+                className="lg:hidden -mt-4"
               />
             </div>
         <div
