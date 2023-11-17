@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Hero = () => (
-  <section id="Hero" className=" text-cyan-700">
+  <section id="Hero" className="">
     <div className="">
       {/* Unsplash image */}
       <div className=" w-full" style={{ backgroundPosition: 'center bottom' }}>

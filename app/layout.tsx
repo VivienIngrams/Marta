@@ -33,7 +33,7 @@ export default function RootLayout({
         className={`min-h-screen w-[100%] ${quicksand.variable} ${cormorant.variable} bg-[rgb(203,224,246)]`}
       >
         <Navbar />
-        <main className="">{children}</main>
+        <main className="bg-[rgb(203,224,246)] font-cormorant text-cyan-700 ">{children}</main>
         <Footer />
       </body>
     </html>

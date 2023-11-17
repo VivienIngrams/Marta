@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
       className="w-full lg:min-h-screen font-raj pb-20  text-md lg:text-xl text-cyan-700"
     >
       <div className="max-w-[1240px] m-auto px-2 w-[70%] ">
-        <div className=" pb-12 tracking-widest uppercase font-cormorant font-bold text-3xl text-center">
+        <div className=" pb-12 tracking-widest uppercase font-cormorant font-bold text-4xl text-center">
           <TypingText title="Contacto" textStyles="text-center" />
         </div>
             <p className="my-4 text-center w-full ">Marque jà a sua consulta...</p>

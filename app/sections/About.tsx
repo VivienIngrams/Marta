@@ -6,7 +6,7 @@ import { TypingText } from "../components/CustomTexts";
 const About = () => (
   <section
     id="About"
-    className="relative z-10  font-normal lg:text-[24px] sm:text-[20px] text-[16px] text-center text-cyan-700 h-screen"
+    className="relative z-10  font-normal lg:text-[24px] sm:text-[20px] text-[16px] text-center text-cyan-700 "
   >
     <div className="relative w-full h-[200px] bg-cyan-700">
       <div className="absolute -bottom-[1px] left-0 w-full overflow-hidden">
@@ -31,13 +31,21 @@ const About = () => (
         </p>
       </div>
     </div>
-    <div className="">
-      <div className="grid lg:grid-cols-4 gap-8 py-10">
+    <div className="h-[80%]">
+      <div className="grid lg:grid-cols-4 gap-8 py-10 md:max-w-[80%] mx-auto">
         {/* left */}
-        <div className="col-span-2 w-full flex items-center justify-center ">
+        <div className="col-span-2 w-full flex flex-col items-center justify-center ">
           <div className="lg:pb-12 tracking-widest uppercase  text-6xl text-center">
             <TypingText title="Marta Guimarães" textStyles="text-center" />
           </div>
+          <div className="flex flex-col w-full items-center">
+        <Link
+          href="/about"
+          className=" p-2 text-md shadow-md  text-sky-100 shadow-gray-400   bg-cyan-700"
+        >
+          Saber mais
+        </Link>
+      </div>
         </div>
         <div className="col-span-2 w-full ">
           {/* right */}
@@ -50,14 +58,7 @@ const About = () => (
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-full items-center">
-        <Link
-          href="/about"
-          className=" p-2 text-md shadow-md  text-sky-100 shadow-gray-400   bg-cyan-700"
-        >
-          Saber mais
-        </Link>
-      </div>
+      
     </div>
   </section>
 );

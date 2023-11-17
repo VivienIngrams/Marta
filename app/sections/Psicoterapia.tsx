@@ -6,7 +6,7 @@ import { TypingText } from "../components/CustomTexts";
 const Psicoterapia = () => {
   return (
     <section id="psicoterapia">
-        <div className="flex justify-center m-20">
+        <div className="flex justify-center m-20 text-4xl">
         <TypingText title="Meus serviços" textStyles="text-center" />
         </div>
       <div className="relative h-screen lg:h-[80vh] w-full">

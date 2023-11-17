@@ -5,7 +5,7 @@ import Coaching from "./sections/Coaching";
 import Contact from "./sections/Contact";
 
 const Page = () => (
-  <div className="bg-[rgb(203,224,246)] font-cormorant text-cyan-700 ">
+  <div className="">
     <Hero />
     <About />
     <Psicoterapia />
