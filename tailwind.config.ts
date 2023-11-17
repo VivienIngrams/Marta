@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        quicksand: ["var(--font-quicksand)"],
+        ubuntu: ["var(--font-ubuntu)"],
         cormorant: ["var(--font-cormorant-garamond)"],
       },
     },

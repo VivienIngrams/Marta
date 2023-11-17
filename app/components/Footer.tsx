@@ -6,8 +6,8 @@ import Link from "next/link";
 const Footer: React.FC = () => {
   return (
     <footer>
-      <div className=" flex flex-col items-center -my-10 bg-cyan-700 font-cormorant text-sm lg:text-lg text-[#B3D9FF]">
-        <div className="flex flex-row justify-center items-center space-x-2 lg:space-x-5">
+      <div className=" flex flex-col items-center -my-10 bg-cyan-700 font-cormorant text-sm lg:text-2xl text-[#B3D9FF]">
+        <div className="flex flex-row justify-center items-center space-x-2 lg:space-x-10">
           <p className="hidden lg:block lg:ml-20">+351 965 421 000</p>
           <Image
             src="/Logo-dark.png"

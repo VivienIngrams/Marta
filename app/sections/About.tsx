@@ -6,7 +6,7 @@ import { TypingText } from "../components/CustomTexts";
 const About = () => (
   <section
     id="About"
-    className="relative z-10  font-normal lg:text-[24px] sm:text-[20px] text-[16px] text-center text-cyan-700 "
+    className="relative z-10  font-normal lg:text-lg text-sm text-center text-cyan-700 "
   >
     <div className="relative w-full h-[200px] bg-cyan-700">
       <div className="absolute -bottom-[1px] left-0 w-full overflow-hidden">
@@ -25,7 +25,7 @@ const About = () => (
         </svg>
       </div>
       {/* Text Overlay */}
-      <div className="w-full h-full flex font-normal items-center justify-center text-sky-100">
+      <div className="w-full h-full flex font-ubuntu items-center justify-center text-sky-100">
         <p className="ms:text-4xl">
           Psicoterapia e coaching online ou presencial no Porto
         </p>
@@ -35,13 +35,13 @@ const About = () => (
       <div className="grid lg:grid-cols-4 gap-8 py-10 md:max-w-[80%] mx-auto">
         {/* left */}
         <div className="col-span-2 w-full flex flex-col items-center justify-center ">
-          <div className="lg:pb-12 tracking-widest uppercase  text-6xl text-center">
+          <div className="lg:pb-12 tracking-widest uppercase  text-4xl text-center">
             <TypingText title="Marta Guimarães" textStyles="text-center" />
           </div>
           <div className="flex flex-col w-full items-center">
         <Link
           href="/about"
-          className=" p-2 text-md shadow-md  text-sky-100 shadow-gray-400   bg-cyan-700"
+          className=" p-2 text-sm shadow-md font-ubuntu  text-sky-100 shadow-gray-400   bg-cyan-700"
         >
           Saber mais
         </Link>
@@ -49,7 +49,7 @@ const About = () => (
         </div>
         <div className="col-span-2 w-full ">
           {/* right */}
-          <div className="text-left lg:py-16 tracking-widest lg:mr-16 m-8">
+          <div className="text-left text-lg font-ubuntu lg:py-16 tracking-widest lg:mr-16 m-4">
             Está na hora de iniciar uma jornada de autodescoberta e crescimento
             pessoal com a orientação especializada de Marta Guimarães. Como
             profissional comprometida, Marta integra a abordagem psicológica com

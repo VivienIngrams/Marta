@@ -11,7 +11,7 @@ interface TypingTextProps {
 export const TypingText: React.FC<TypingTextProps> = ({ title, textStyles }) => (
   <motion.p
     variants={textContainer as Variants}
-    className={`font-light text-[22px] lg:text-[30px] text-cyan-700 my-10 uppercase tracking-widest ${textStyles}`}
+    className={`font-cormorant text-2xl lg:text-3xl text-cyan-700 my-10 uppercase tracking-widest`}
   >
     {Array.from(title).map((letter, index) => (
       <motion.span variants={textVariant as Variants} key={index}>

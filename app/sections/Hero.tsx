@@ -5,7 +5,7 @@ const Hero = () => (
   <section id="Hero" className="">
     <div className="">
       {/* Unsplash image */}
-      <div className=" w-full" style={{ backgroundPosition: 'center bottom' }}>
+      <div className="w-full" style={{ backgroundPosition: 'center bottom' }}>
         <Image
           className="absolute -top-35 left-0 right-0 bottom-0 min-h-screen bg-fixed bg-center bg-cover h-full w-full "
           src="https://images.unsplash.com/photo-1444044205806-38f3ed106c10?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

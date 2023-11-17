@@ -1,7 +1,11 @@
+'use client'
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { TypingText } from "../components/CustomTexts";
+import { motion } from "framer-motion";
+import { fadeIn } from "@/utils/motion";
 
 const Psicoterapia = () => {
   return (
@@ -22,8 +26,12 @@ const Psicoterapia = () => {
           </div>
           <div className="absolute translate-y-1/6 lg:mr-[60px] ">
             <div className="flex flex-col justify-center items-center lg:m-10 lg:pr-[180px] lg:text-xl">
-              <div className="text-4xl">Psicoterapia </div>
-              <div className="p-10 ">
+            <motion.div> <motion.h2
+                variants={fadeIn("up", "tween", 0.2, 1)}
+                className="my-[8px] text-4xl font-cormorant"
+              >
+                Psicoterapia
+              </motion.h2></motion.div>              <div className="p-10 ">
                 Psicoterapia Lorem ipsum dolor sit amet consectetur adipisicing
                 elit. Magnam beatae eos adipisci, illo repudiandae deleniti
                 inventore similique neque ipsa quisquam harum ullam facilis
@@ -32,7 +40,7 @@ const Psicoterapia = () => {
             <div className="flex flex-col w-full items-center">
               <Link
                 href="/about"
-                className=" p-2 text-md shadow-md  text-sky-100 shadow-gray-400   bg-cyan-700"
+                className="p-2 text-sm shadow-md  text-sky-100 shadow-gray-400   bg-cyan-700"
               >
                 Saber mais
               </Link>
