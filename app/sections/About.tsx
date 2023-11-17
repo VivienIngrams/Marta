@@ -26,7 +26,7 @@ const About = () => (
       </div>
       {/* Text Overlay */}
       <div className="w-full h-full flex font-ubuntu items-center justify-center text-sky-100">
-        <p className="ms:text-4xl">
+        <p className="lg:text-3xl">
           Psicoterapia e coaching online ou presencial no Porto
         </p>
       </div>
@@ -49,7 +49,7 @@ const About = () => (
         </div>
         <div className="col-span-2 w-full ">
           {/* right */}
-          <div className="text-left text-lg font-ubuntu lg:py-16 tracking-widest lg:mr-16 m-4">
+          <div className="text-left lg:text-lg font-ubuntu lg:py-16 tracking-widest lg:mr-16 m-4">
             Está na hora de iniciar uma jornada de autodescoberta e crescimento
             pessoal com a orientação especializada de Marta Guimarães. Como
             profissional comprometida, Marta integra a abordagem psicológica com

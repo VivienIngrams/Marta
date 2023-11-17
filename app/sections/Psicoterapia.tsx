@@ -14,7 +14,7 @@ const Psicoterapia = () => {
         <TypingText title="Meus serviços" textStyles="text-center" />
         </div>
       <div className="relative h-screen lg:h-[80vh] w-full">
-        <div className="relative bg-[rgb(0,0,0,0.1)] h-screen lg:h-1/2 w-[80%] lg:w-[60%] max-w-[900px] max-h-[400px] mx-auto my-40 lg:my-10">
+        <div className="relative bg-[rgba(207,208,171,0.3)] h-screen lg:h-1/2 w-[80%] lg:w-[60%] max-w-[900px] max-h-[400px] mx-auto my-40 lg:my-10">
           <div className="absolute -translate-y-[140px] lg:translate-y-[100px] lg:translate-x-[500px]  w-100 h-200 lg:ml-20">
             <Image
               height={400}
@@ -28,7 +28,7 @@ const Psicoterapia = () => {
             <div className="flex flex-col justify-center items-center lg:m-10 lg:pr-[180px] lg:text-xl">
             <motion.div> <motion.h2
                 variants={fadeIn("up", "tween", 0.2, 1)}
-                className="my-[8px] text-4xl font-cormorant"
+                className="my-[8px] text-2xl uppercase font-cormorant"
               >
                 Psicoterapia
               </motion.h2></motion.div>              <div className="p-10 ">
