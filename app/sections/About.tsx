@@ -6,7 +6,7 @@ import { TypingText } from "../components/CustomTexts";
 import { fadeIn } from "@/utils/motion";
 
 const About = () => (
-  <section id="About" className="relative z-10 h-screen text-center text-cyan-700 ">
+  <section id="About" className="relative z-10 min-h-screen text-center text-cyan-700 ">
     <div className="relative w-full h-[200px] bg-cyan-700">
       <div className="absolute -bottom-[2px] left-0 w-full overflow-hidden">
         <svg
