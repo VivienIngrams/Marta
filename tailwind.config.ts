@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         ubuntu: ["var(--font-ubuntu)"],
-        cormorant: ["var(--font-cormorant-garamond)"],
+        marcellus: ["var(--font-marcellus)"],
       },
     },
   },
