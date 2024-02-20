@@ -24,7 +24,7 @@ export const navVariants = {
   export const fadeIn = (direction: string, type: string, delay: number, duration: number) => ({
     hidden: {
       x: direction === 'left' ? 100 : direction === 'right' ? -100 : 0,
-      y: direction === 'up' ? 100 : direction === 'down' ? -100 : 0,
+      y: direction === 'up' ? 50 : direction === 'down' ? -20 : 0,
       opacity: 0,
     },
     show: {

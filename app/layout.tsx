@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`min-h-screen w-[100%] ${ubuntu.variable} ${marcellus.variable} bg-[rgb(227,237,246)]`}
+        className={`min-h-screen ${ubuntu.variable} ${marcellus.variable} bg-[rgb(227,237,246)]`}
       >
         <Navbar />
         <main className=" font-marcellus text-cyan-700 ">{children}</main>

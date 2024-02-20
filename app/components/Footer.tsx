@@ -12,9 +12,9 @@ const Footer: React.FC = () => {
           <Image
             src="/Logo.png"
             alt="Logo"
-            width={250}
+            width={330}
             height={250}
-            className="-pt-5 overflow-hidden h-[140px] w-[140px] lg:h-[200px] lg:w-[200px]"
+            className="-pt-5 overflow-hidden h-[120px] w-[140px] lg:h-[200px] lg:w-[230px]"
           />
           <div className="flex flex-col items-start justify-center p-1">
             <p className="py-2 lg:hidden">+351 965 421 000</p>

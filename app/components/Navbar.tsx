@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
     <>
       <nav
         style={{ backgroundColor: `${navBg}` }}
-        className="fixed w-full h-100 p-4 text-lg font-ubuntu uppercase tracking-tight font-light text-cyan-800 z-[100]"
+        className="fixed w-full h-100 p-4 text-xl font-marcellus  uppercase tracking-tight font-light text-cyan-800 z-[100]"
       >
         {/* Mobile nav */}
         <div className=" relative flex justify-center items-center w-full h-full 2xl:px-16">

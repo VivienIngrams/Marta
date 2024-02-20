@@ -1,13 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { TypingText } from "../components/CustomTexts";
+import { fadeIn } from "@/utils/motion";
 
 const About = () => (
-  <section
-    id="About"
-    className="relative z-10 text-center text-cyan-700 "
-  >
+  <section id="About" className="relative z-10 h-screen text-center text-cyan-700 ">
     <div className="relative w-full h-[200px] bg-cyan-700">
       <div className="absolute -bottom-[2px] left-0 w-full overflow-hidden">
         <svg
@@ -25,37 +24,58 @@ const About = () => (
         </svg>
       </div>
       {/* Text Overlay */}
-      <div className="w-full h-full flex  items-center justify-center text-sky-100 font-light tracking-wider">
-        <p className="lg:text-4xl p-6">
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+        className="w-full h-full flex  items-center justify-center text-sky-100 font-light tracking-widest"
+      >
+        <motion.p
+          variants={fadeIn("down", "tween", 0.1, 0.5)}
+          className="lg:text-2xl p-6 mb-4"
+        >
           Psicoterapia relacional online e presencial no Porto
-        </p>
-      </div>
+        </motion.p>
+      </motion.div>
     </div>
-    <div className="h-[80%]">
-      <div className="px-2 gap-8 py-10 md:max-w-[80%] mx-auto">
-        {/* left */}
-        <div className="w-full flex flex-col items-center justify-center ">
+
+    {/* Main section */}
+    <div className=" flex justify-center items-center h-[80%] border-b-white border-b-4 mx-[10vw]">
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+        className="px-2 gap-8 py-10 md:max-w-[80%] mx-auto"
+      >
+    
+        <motion.div className="w-full flex flex-col items-center justify-center ">
           <div className="lg:pb-12 tracking-widest uppercase  text-center">
             <TypingText title="Marta Guimarães" textStyles="text-center" />
           </div>
-          
+        </motion.div>
+        <div className="py-12 w-full ">
+        
+          <motion.p
+            variants={fadeIn("up", "tween", 1.5, 0.8)}
+            className="text-center max-w-[80%] mx-auto lg:text-2xl "
+          >
+            Marta Guimarães é uma profissional comprometida que integra a
+            abordagem psicológica com estratégias de coaching para ajudá-lo a
+            atingir seus objetivos e superar desafios.
+          </motion.p>
         </div>
-        <div className="py-8 w-full ">
-          {/* right */}
-          <div className="text-center max-w-[80%] mx-auto lg:text-2xl ">
-          Marta Guimarães é uma profissional comprometida que integra a abordagem psicológica com estratégias de coaching para ajudá-lo a atingir seus objetivos e superar desafios.
-          </div>
-        </div>
-        <div className="flex flex-col w-full items-center my-12">
-        <Link
-          href="/about"
-          className=" p-2 text-lg shadow-md font-ubuntu  text-sky-100 shadow-gray-400   bg-cyan-700"
+        <motion.div
+          variants={fadeIn("up", "tween", 1.5, 0.8)}
+          className="flex flex-col w-full items-center my-12"
         >
-          Conhecer a Marta
-        </Link>
-      </div>
-      </div>
-      
+          <Link
+            href="/about"
+            className=" p-2 text-lg shadow-md font-ubuntu  text-sky-100 shadow-gray-400   bg-cyan-700"
+          >
+            Conhecer a Marta
+          </Link>
+        </motion.div>
+      </motion.div>
     </div>
   </section>
 );
