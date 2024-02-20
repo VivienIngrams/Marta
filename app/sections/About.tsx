@@ -70,7 +70,7 @@ const About = () => (
         >
           <Link
             href="/about"
-            className=" p-2 text-lg shadow-md font-ubuntu  text-sky-100 shadow-gray-400   bg-cyan-700"
+            className=" p-2 text-lg shadow-md text-sky-100 shadow-gray-400   bg-cyan-700"
           >
             Conhecer a Marta
           </Link>
