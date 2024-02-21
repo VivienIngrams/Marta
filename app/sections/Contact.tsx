@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div className=" py-2 cursor-pointer hover:scale-105 ease-in duration-300 my-2">
                     <a href="mailto:martaguimaraes@gmail.com" target="_blank">
-                      <p>martaguimaraes@gmail.com</p>
+                      <p>martavgui@gmail.com</p>
                     </a>
                   </div>
                 </div>
@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div className=" py-2 cursor-pointer hover:scale-105 ease-in duration-300 my-2">
                     <a href="https://web.whatsapp.com" target="_blank">
-                      <p>+ 351 695 432 100</p>
+                      <p>+351 914 723 959</p>
                     </a>
                   </div>
                 </div>

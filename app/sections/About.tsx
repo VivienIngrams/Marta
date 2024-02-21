@@ -28,10 +28,10 @@ const About = () => (
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className="w-full h-full flex  items-center justify-center text-sky-100 font-light tracking-widest"
+        className="w-full h-full flex  items-center justify-center text-sky-50 font-light tracking-widest"
       >
         <motion.p
-          variants={fadeIn("down", "tween", 0.1, 0.5)}
+          variants={fadeIn("down", "tween", 0.1, 0.7)}
           className="lg:text-2xl p-6 mb-4"
         >
           Psicoterapia relacional online e presencial no Porto
@@ -70,7 +70,7 @@ const About = () => (
         >
           <Link
             href="/about"
-            className=" p-2 text-lg shadow-md text-sky-100 shadow-gray-400   bg-cyan-700"
+            className=" p-2 text-lg shadow-md text-sky-50 shadow-gray-400   bg-cyan-700"
           >
             Conhecer a Marta
           </Link>

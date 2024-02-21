@@ -6,7 +6,7 @@ import Link from "next/link";
 const Footer: React.FC = () => {
   return (
     <footer>
-      <div className=" flex flex-col items-center -my-10 bg-cyan-700 font-marcellus font-light text-xs lg:text-2xl text-sky-100">
+      <div className=" flex flex-col items-center -my-10 bg-cyan-700 font-marcellus font-light text-xs lg:text-xl text-sky-50">
         <div className="flex flex-row justify-center items-center space-x-2 lg:space-x-10">
           <p className="hidden lg:block lg:ml-20">+351 965 421 000</p>
           <Image
@@ -17,13 +17,13 @@ const Footer: React.FC = () => {
             className="-pt-5 overflow-hidden h-[120px] w-[140px] lg:h-[200px] lg:w-[230px]"
           />
           <div className="flex flex-col items-start justify-center p-1">
-            <p className="py-2 lg:hidden">+351 965 421 000</p>
+            <p className="py-2 lg:hidden">+351 914 723 959</p>
             <a
               href="mailto:martaguimaraes@gmail.com"
               className="py-2"
               target="_blank"
             >
-              martaguimaraes@gmail.com
+              martavgui@gmail.com
             </a>
           </div>
         </div>

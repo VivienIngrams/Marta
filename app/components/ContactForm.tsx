@@ -86,7 +86,7 @@ const ContactForm: React.FC = () => {
       <div className="flex flex-col items-center">
         <button
           type="submit"
-          className=" p-2 mt-8 text-sm shadow-md  text-sky-100 shadow-gray-400   bg-cyan-700"
+          className=" p-2 mt-8 text-sm shadow-md  text-sky-50 shadow-gray-400   bg-cyan-700"
         >
           Enviar mensagem
         </button>
