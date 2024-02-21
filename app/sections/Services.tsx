@@ -20,6 +20,12 @@ const Services = () => {
                   viewport={{ once: false, amount: 0.25 }}
                   className="p-10 ml-8"
                 >
+                   <motion.h1
+                    variants={fadeIn("left", "tween", 0.1, 1)}
+                    className="uppercase text-3xl xl:text-3xl p-2 xl:p-4"
+                  >
+                    Serviços
+                  </motion.h1>
                   <motion.p
                     variants={fadeIn("left", "tween", 0.1, 1)}
                     className="p-2 xl:p-4"
@@ -50,14 +56,14 @@ const Services = () => {
               sizes="10vw 50vw"
               className="md:absolute object-cover object-center border-[1px] border-cyan-700"
             />
-            <motion.div className="z-25 absolute flex justify-center items-center h-full w-full">
+            {/* <motion.div className="z-25 absolute flex justify-center items-center h-full w-full">
               <motion.h2
                 variants={fadeIn("up", "tween", 0.2, 1)}
-                className=" text-3xl xl:text-4xl text-sky-50 my-10 uppercase tracking-widest"
+                className=" text-3xl xl:text-4xl text-sky-50 my-10 uppercase"
               >
                 Serviços
               </motion.h2>
-            </motion.div>
+            </motion.div> */}
           </div>
         </div>
       </div>

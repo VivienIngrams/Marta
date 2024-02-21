@@ -9,7 +9,7 @@ import { fadeIn } from "@/utils/motion";
 const Psi = () => {
   return (
     <section id="Psi">
-      <div className="h-[130vh] xs:h-[110vh] md:h-screen xl:w-[90vw] mx-auto py-8 ">
+      <div className="h-[130vh] xs:h-[110vh] md:h-screen xl:w-[90vw] mx-auto my-8 ">
         <div className="relative h-full w-full lg:w-[90%] mx-auto">
           <div className="absolute top-0 left-0 bg-white  border-cyan-700 border-[1px] w-[90%] h-[75%] xl:h-[75%] xl:w-[60%] ">
             <div className=" w-full h-full flex justify-center items-center ">
@@ -22,7 +22,7 @@ const Psi = () => {
                 >
                   <motion.h1
                     variants={fadeIn("left", "tween", 0.1, 1)}
-                    className="uppercase text-xl md:text-2xl xl:text-3xl p-2 xl:p-4"
+                    className="uppercase text-3xl xl:text-3xl p-2 xl:p-4"
                   >
                     Psicoterapia
                   </motion.h1>
@@ -58,7 +58,7 @@ const Psi = () => {
               </div>
             </div>
           </div>
-          <div className=" absolute bottom-0 right-0 h-[30%] w-[90%] xl:w-[45%] xl:h-[45%] min-h-[200px] max-w-[600px] ">
+          <div className=" absolute bottom-0 right-0 h-[30%] w-[90%] xl:w-[45%] xl:h-[45%] min-h-[200px] max-w-[600px] mb-12">
             <Image
               fill
               src="https://images.unsplash.com/uploads/14122810486321888a497/1b0cc699?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29hY2hpbmd8ZW58MHwwfDB8fHww"
@@ -69,6 +69,8 @@ const Psi = () => {
           </div>
         </div>
       </div>
+      <div className="h-4 border-b-white border-b-4 mx-[10vw]"/>
+
     </section>
   );
 };

@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
         <div
           className={
             nav
-              ? "fixed right-0 top-0 left-0 w-full  tracking-widest h-screen ease-in duration-800  bg-cyan-700 text-sky-50 z-50"
+              ? "fixed right-0 top-0 left-0 w-full  tracking-widest h-screen ease-in duration-1000  bg-cyan-700 text-sky-50 z-50"
               : "fixed right-[-150%] top-0 p-10 ease-in duration-800"
           }
         >
