@@ -64,6 +64,7 @@ const About = () => (
             atingir seus objetivos e superar desafios.
           </motion.p>
         </div>
+        {/* Button */}
         <motion.div
           variants={fadeIn("up", "tween", 1.5, 0.8)}
           className="flex flex-col w-full items-center my-12"

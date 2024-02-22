@@ -3,13 +3,15 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../utils/motion";
+import Link from "next/link";
 
 const About = () => {
   return (
     <section
       id="About"
-      className="relative z-10 min-h-screen text-center text-cyan-700 "
+      className="relative z-10 h-screen pb-[120px] lg:[200px] flex flex-col text-center text-cyan-700 "
     >
+      {/* Top border */}
       <div className="relative w-full h-[100px] bg-cyan-700">
         <div className="absolute -bottom-[2px] left-0 w-full overflow-hidden">
           <svg
@@ -26,24 +28,63 @@ const About = () => {
             ></path>
           </svg>
         </div>
-        <div
-          id="contact"
-          className="w-full lg:min-h-screen font-raj pb-20  text-sm lg:text-xl text-cyan-700"
-        ></div>
-        <motion.div
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
-          className="max-w-[1240px] m-auto px-2 lg:w-[80%] "
-        >
-          <motion.h1
-            variants={fadeIn("down", "tween", 0, 1)}
-            className=" text-3xl lg:text-6xl text-cyan-700 my-12 lg:my-20 uppercase  text-center"
-          >
-            Sobre Marta
-          </motion.h1>
-        </motion.div>
       </div>
+      Main
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        className="max-w-[1240px] m-auto px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] border-[1px] border-cyan-700 bg-white shadow-lg"
+      >
+        {/* Title */}
+        <motion.h1
+          variants={fadeIn("down", "tween", 0, 1)}
+          className=" text-3xl lg:text-6xl text-cyan-700 my-12 lg:my-20 uppercase text-center"
+        >
+          Sobre Marta
+        </motion.h1>
+        <div>
+          <motion.p
+            variants={fadeIn("down", "tween", 0.2, 1)}
+            className="text-justify lg:text-left p-2"
+          >
+            Olá! Sou a Marta, uma psicóloga dedicada ao crescimento pessoal e ao
+            desenvolvimento saudável das relações interpessoais. Com uma vasta
+            experiência como formadora na área comportamental e uma
+            especialização em Psicoterapia Relacional, o meu objetivo é oferecer
+            suporte emocional e promover mudanças significativas na vida das
+            pessoas.
+          </motion.p>
+          <motion.p
+            variants={fadeIn("down", "tween", 0.3, 1)}
+            className="text-justify lg:text-left p-2"
+          >
+            Sou apaixonada por compreender a complexidade da mente humana e, ao
+            longo dos anos, tenho mergulhado profundamente na psicologia
+            comportamental e na psicoterapia relacional.
+          </motion.p>
+          <motion.p
+            variants={fadeIn("down", "tween", 0.4, 1)}
+            className="text-justify lg:text-left p-2"
+          >
+            Atualmente, estou focada na minha especialização em Psicoterapia
+            Relacional, uma abordagem que valoriza a importância das relações
+            interpessoais na construção do bem-estar emocional. A minha prática
+            é fundamentada em conhecimentos sólidas, aliada a uma abordagem
+            empática e colaborativa.
+          </motion.p>
+        </div>
+        <motion.div
+          variants={fadeIn("down", "tween", 0.6, 1)}
+          className="flex flex-col w-full items-center my-12"
+        >
+          <Link
+            href="/about"
+            className=" p-2 text-lg shadow-md text-sky-50 shadow-gray-400   bg-cyan-700"
+          >
+            Conhecer a Marta
+          </Link>
+        </motion.div>
+      </motion.div>
     </section>
   );
 };
