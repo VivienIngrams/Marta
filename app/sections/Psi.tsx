@@ -9,7 +9,7 @@ import { fadeIn } from "@/utils/motion";
 const Psi = () => {
   return (
     <section id="Psi">
-      <div className="h-[130vh] xs:h-[110vh] md:h-screen xl:w-[90vw] mx-auto my-8 ">
+      <div className="h-[130vh] xs:h-[110vh] md:h-screen lg:w-[90vw] mx-auto my-8 ">
         <div className="relative h-full w-full lg:w-[90%] mx-auto">
           <div className="absolute top-0 left-0 bg-white  border-orange-100 border-[1px] w-[90%] h-[75%] xl:h-[75%] xl:w-[60%] ">
             <div className=" w-full h-full flex justify-center items-center ">

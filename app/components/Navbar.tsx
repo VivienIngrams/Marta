@@ -54,9 +54,9 @@ const Navbar: React.FC = () => {
     <>
       <nav
         style={{ backgroundColor: `${navBg}` }}
-        className={`fixed w-full h-100 p-4 text-xl font-marcellus uppercase tracking-tight font-light ${textColor} z-[100]`}
+        className={`fixed w-full h-100 p-4 text-lg xl:text-xl font-marcellus uppercase tracking-tight font-light ${textColor} z-[100]`}
       >
-        {/* Mobile nav */}
+        {/* Desktop nav */}
         <div className="relative flex justify-center items-center w-full h-full 2xl:px-16">
           <div>
             <ul className="hidden lg:flex">
@@ -67,22 +67,22 @@ const Navbar: React.FC = () => {
                 </li>
               </Link>
               <Link href="/about">
-                <li className="ml-20 hover:border-b">
+                <li className="ml-10 hover:border-b">
                   Sobre
                 </li>
               </Link>
               <Link href="/psicoterapia">
-                <li className="ml-20 hover:border-b">
+                <li className="ml-10 hover:border-b">
                   Psicoterapia Relacional
                 </li>
               </Link>
               <Link href="/services">
-                <li className="ml-20 hover:border-b">
+                <li className="ml-10 hover:border-b">
                   Outros Serviços
                 </li>
               </Link>
               <Link href="/#contact">
-                <li className="ml-20 hover:border-b">
+                <li className="ml-10 hover:border-b">
                   Contact
                 </li>
               </Link>
