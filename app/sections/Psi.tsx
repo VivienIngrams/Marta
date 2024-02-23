@@ -11,9 +11,9 @@ const Psi = () => {
     <section id="Psi">
       <div className="h-[130vh] xs:h-[110vh] md:h-screen xl:w-[90vw] mx-auto my-8 ">
         <div className="relative h-full w-full lg:w-[90%] mx-auto">
-          <div className="absolute top-0 left-0 bg-white  border-cyan-700 border-[1px] w-[90%] h-[75%] xl:h-[75%] xl:w-[60%] ">
+          <div className="absolute top-0 left-0 bg-white  border-orange-100 border-[1px] w-[90%] h-[75%] xl:h-[75%] xl:w-[60%] ">
             <div className=" w-full h-full flex justify-center items-center ">
-              <div className=" xl:m-10  xl:text-2xl">
+              <div className=" xl:m-10 text-md lg:text-lg xl:text-xl">
                 <motion.div
                   initial="hidden"
                   whileInView="show"
@@ -28,7 +28,7 @@ const Psi = () => {
                   </motion.h1>
                   <motion.p
                     variants={fadeIn("left", "tween", 0.3, 1)}
-                    className="p-2 xl:p-4 text-base  leading-tight "
+                    className="p-2 xl:p-4   leading-tight "
                   >
                     A minha abordagem psicoterapêutica visa criar um ambiente
                     acolhedor, onde juntos, com base numa relação segura,
@@ -37,7 +37,7 @@ const Psi = () => {
                   </motion.p>
                   <motion.p
                     variants={fadeIn("left", "tween", 0.5, 1)}
-                    className="p-2 xl:p-4 text-base  leading-tight "
+                    className="p-2 xl:p-4   leading-tight "
                   >
                     Quer esteja em busca de crescimento pessoal ou esteja a
                     enfrentar dificuldades específicas, estou aqui para oferecer
@@ -64,7 +64,7 @@ const Psi = () => {
               src="https://images.unsplash.com/uploads/14122810486321888a497/1b0cc699?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29hY2hpbmd8ZW58MHwwfDB8fHww"
               alt="Psicoterapia"
               sizes="10vw 50vw"
-              className=" md:absolute object-cover object-center border-[1px] border-cyan-700"
+              className=" md:absolute object-cover object-center border-[1px] border-orange-100"
             />
           </div>
         </div>

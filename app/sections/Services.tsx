@@ -11,7 +11,7 @@ const Services = () => {
     <section id="Services">
       <div className="h-screen w-screen xl:w-[80vw] mx-auto py-20 ">
         <div className="relative h-full lg:w-[90%] md:mx-auto">
-          <div className="absolute bottom-0 right-0 bg-white border-[1px] border-cyan-700 w-[90%] h-[65%] xl:h-[68%] xl:w-[53%] ">
+          <div className="absolute bottom-0 right-0 bg-white border-[1px] border-orange-100 w-[90%] h-[65%] xl:h-[68%] xl:w-[53%] ">
             <div className="w-full h-full flex justify-center items-center ">
               <div className="text-md lg:text-lg xl:m-10  xl:text-xl">
                 <motion.div
@@ -54,7 +54,7 @@ const Services = () => {
               src="https://images.unsplash.com/photo-1512406926044-c2b194f3975a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvYWNoaW5nfGVufDB8MHwwfHx8MA%3D%3D"
               alt="Services"
               sizes="10vw 50vw"
-              className="md:absolute object-cover object-center border-[1px] border-cyan-700"
+              className="md:absolute object-cover object-center border-[1px] border-orange-100"
             />
             {/* <motion.div className="z-25 absolute flex justify-center items-center h-full w-full">
               <motion.h2

@@ -8,15 +8,15 @@ const Footer: React.FC = () => {
     <footer>
       <div className=" flex flex-col items-center -my-10 bg-cyan-700 font-marcellus font-light text-xs lg:text-xl text-sky-50">
         <div className="flex flex-row justify-center items-center space-x-2 lg:space-x-10">
-          <p className="hidden lg:block lg:ml-20">+351 965 421 000</p>
+          {/* <p className="hidden lg:block lg:ml-20">+351 965 421 000</p> */}
           <Image
-            src="/Logo.png"
+            src="/NewLogoDark.png"
             alt="Logo"
-            width={330}
-            height={250}
-            className="-pt-5 overflow-hidden h-[120px] w-[140px] lg:h-[200px] lg:w-[230px]"
+            width={530}
+            height={350}
+            className="-pt-5 object-cover overflow-hidden h-[100px] w-[340px] lg:h-[150px] lg:w-[530px]"
           />
-          <div className="flex flex-col items-start justify-center p-1">
+          {/* <div className="flex flex-col items-start justify-center p-1">
             <p className="py-2 lg:hidden">+351 914 723 959</p>
             <a
               href="mailto:martaguimaraes@gmail.com"
@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
             >
               martavgui@gmail.com
             </a>
-          </div>
+          </div> */}
         </div>
       <div className="flex justify-between -mt-5 w-full ">
         <Link href="/">

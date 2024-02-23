@@ -29,7 +29,7 @@ const About = () => {
           </svg>
         </div>
       </div>
-      Main
+      {/* Main */}
       <motion.div
         initial="hidden"
         whileInView="show"

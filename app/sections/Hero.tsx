@@ -16,14 +16,14 @@ const Hero = () => (
         <div className="absolute top-0 left-0 w-full min-h-screen h-full bg-cover bg-[rgb(227,237,246,0.6)]" />
 
         {/* Logo overlay */}
-        <div className="relative top-12 left-0 w-full min-h-screen flex items-center justify-center">
+        <div className="relative top-[18vh] left-0 w-full min-h-screen flex items-center justify-center">
           <div className="-translate-y-1/3 m-8">
             <Link href="/">
               <Image
-                src="/Logo-removebg.png"
+                src="/NewLogo.png"
                 alt="Logo"
-                width={380}
-                height={380}
+                width={780}
+                height={480}
               />
             </Link>
           </div>
