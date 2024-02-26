@@ -12,7 +12,7 @@ const About = () => {
       className="relative z-10 lg:[200px] flex flex-col text-center text-cyan-700 "
     >
       {/* Top border */}
-      <div className="relative w-full h-[100px] bg-cyan-700">
+      <div className="relative w-full h-[65px] md:h-[100px] bg-cyan-700">
         <div className="absolute -bottom-[2px] left-0 w-full overflow-hidden">
           <svg
             className="relative block h-[20px] lg:h-[40px] w-full"
