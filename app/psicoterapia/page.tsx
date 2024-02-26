@@ -35,19 +35,19 @@ const Psicoterapia = () => {
       <motion.div
         initial="hidden"
         whileInView="show"
-        className="max-w-[1240px] m-auto my-12 md:mb-[120px] p-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] border-[1px] border-orange-100 bg-white shadow-lg"
+        className="max-w-[1240px] m-auto my-12 flex flex-col justify-center items-center px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw]"
       >
         {/* Title */}
         <motion.h1
           variants={fadeIn("down", "tween", 0, 1)}
-          className=" text-3xl lg:text-6xl text-cyan-700 my-12 lg:my-20 uppercase text-center"
+          className="max-w-[400px] lg:leading-[40px] text-3xl lg:text-6xl text-cyan-700 my-12  uppercase text-center"
         >
           Psicoterapia relacional
         </motion.h1>
         <div>
           <motion.p
             variants={fadeIn("down", "tween", 0.2, 1)}
-            className="text-justify lg:text-left p-2"
+            className="text-justify  p-2"
           >
             A psicoterapia relacional é uma abordagem terapêutica que destaca a
             importância das relações interpessoais na promoção do bem-estar
@@ -57,7 +57,7 @@ const Psicoterapia = () => {
           </motion.p>
           <motion.p
             variants={fadeIn("down", "tween", 0.3, 1)}
-            className="text-justify lg:text-left p-2"
+            className="text-justify  p-2"
           >
             Como psicólogo especializado em psicoterapia relacional, trabalho em
             parceria com você, oferecendo um ambiente seguro e empático para
@@ -76,96 +76,13 @@ const Psicoterapia = () => {
             Marque uma consulta
           </Link>
         </motion.div>
+        <div className="h-8 w-full border-b-white border-b-4 mx-[10vw]"></div>
       </motion.div>
+
       <motion.div
         initial="hidden"
         whileInView="show"
-        className="max-w-[1240px] m-auto  my-[40px] px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw]"
-      >
-        <div>
-          <motion.p
-            variants={fadeIn("down", "tween", 0.2, 1)}
-            className="text-justify lg:text-left p-2"
-          >
-            Aqui estão alguns exemplos de áreas em que a Psicoterapia Relacional
-            pode ser particularmente eficaz:
-          </motion.p>
-          <motion.ul initial="hidden" whileInView="show"  className="pl-8">
-            <motion.li
-              variants={fadeIn("right", "tween", 0.2, 1)}
-              className="text-left p-2 "
-            >
-              Depressão
-            </motion.li>
-            <motion.li
-              variants={fadeIn("right", "tween", 0.4, 1)}
-              className="text-left p-2 "
-            >
-              Ansiedade
-            </motion.li>
-            <motion.li
-              variants={fadeIn("right", "tween", 0.6, 1)}
-              className="text-left p-2 "
-            >
-              Fobias
-            </motion.li>
-            <motion.li
-              variants={fadeIn("right", "tween", 0.8, 1)}
-              className="text-left p-2 "
-            >
-              Redução de Stress em todas as áreas da sua vida (ex. trabalho,
-              familiar, conjugal, etc.)
-            </motion.li>
-            <motion.li
-              variants={fadeIn("right", "tween", 1, 1)}
-              className="text-left p-2 "
-            >
-              Eventos traumáticos
-            </motion.li>
-            <motion.li
-              variants={fadeIn("right", "tween", 1.2, 1)}
-              className="text-left p-2 "
-            >
-              Desenvolvimento Emocional
-            </motion.li>
-            <motion.li
-              variants={fadeIn("right", "tween", 1.4, 1)}
-              className="text-left p-2 "
-            >
-              Distúrbios alimentares
-            </motion.li>
-            <motion.li
-              variants={fadeIn("right", "tween", 1.6, 1)}
-              className="text-left p-2 "
-            >
-              Períodos de Transição
-            </motion.li>
-            <motion.li
-              variants={fadeIn("right", "tween", 1.8, 1)}
-              className="text-left p-2 "
-            >
-            Crescimento e desenvolvimento pessoal
-            </motion.li>
-            <motion.li
-              variants={fadeIn("right", "tween", 2, 1)}
-              className="text-left p-2 "
-            >
-              Questões existenciais
-            </motion.li>
-          </motion.ul>
-        </div>
-      </motion.div>
-      <Image
-        src="https://images.unsplash.com/photo-1512406926044-c2b194f3975a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvYWNoaW5nfGVufDB8MHwwfHx8MA%3D%3D"
-        height={500}
-        width={600}
-        alt="Psicoterapia"
-        className=" w-[95vw] md:w-[90vw] lg:w-[80vw] m-auto"
-      />
-      <motion.div
-        initial="hidden"
-        whileInView="show"
-        className="max-w-[1240px] m-auto  my-[40px] px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] border-[1px] border-orange-100 bg-white shadow-lg"
+        className="max-w-[1240px] m-auto py-12 my-12 px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] border-[1px] border-orange-100 bg-white shadow-lg"
       >
         <div>
           <motion.p
@@ -178,6 +95,26 @@ const Psicoterapia = () => {
             saudáveis. O meu compromisso é proporcionar uma experiência
             terapêutica holística e transformadora.
           </motion.p>
+        </div>
+      </motion.div>
+      <motion.div
+        variants={fadeIn("down", "tween", 0.3, 1)}
+        className="text-justify lg:text-left p-2"
+      >
+        <Image
+          src="https://images.unsplash.com/photo-1512406926044-c2b194f3975a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvYWNoaW5nfGVufDB8MHwwfHx8MA%3D%3D"
+          height={500}
+          width={600}
+          alt="Psicoterapia"
+          className=" w-[95vw] md:w-[90vw] lg:w-[80vw] m-auto"
+        />
+      </motion.div>
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        className="max-w-[1240px] m-auto py-12 my-12 px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] border-[1px] border-orange-100 bg-white shadow-lg"
+      >
+        <div>
           <motion.p
             variants={fadeIn("down", "tween", 0.2, 1)}
             className="text-justify lg:text-left p-2"
@@ -190,6 +127,92 @@ const Psicoterapia = () => {
           </motion.p>
         </div>
       </motion.div>
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        className="max-w-[1240px] m-auto  my-[40px] px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw]"
+      >
+        <div>
+          <motion.p
+            variants={fadeIn("down", "tween", 0.2, 1)}
+            className="text-justify lg:text-left p-4 text-sky-50 bg-cyan-700 border-[1px] border-orange-100 shadow-lg"
+          >
+            Aqui estão alguns exemplos de áreas em que a Psicoterapia Relacional
+            pode ser particularmente eficaz:
+          </motion.p>
+          <div className="md:grid md:grid-cols-2">
+            <div></div>
+            <motion.ul
+              initial="hidden"
+              whileInView="show"
+              className="pl-8 md:p-0"
+            >
+              <motion.li
+                variants={fadeIn("right", "tween", 0.2, 1)}
+                className="text-left p-2 "
+              >
+                Depressão
+              </motion.li>
+              <motion.li
+                variants={fadeIn("right", "tween", 0.4, 1)}
+                className="text-left p-2 "
+              >
+                Ansiedade
+              </motion.li>
+              <motion.li
+                variants={fadeIn("right", "tween", 0.6, 1)}
+                className="text-left p-2 "
+              >
+                Fobias
+              </motion.li>
+              <motion.li
+                variants={fadeIn("right", "tween", 0.8, 1)}
+                className="text-left p-2 "
+              >
+                Redução de Stress em todas as áreas da sua vida (ex. trabalho,
+                familiar, conjugal, etc.)
+              </motion.li>
+              <motion.li
+                variants={fadeIn("right", "tween", 1, 1)}
+                className="text-left p-2 "
+              >
+                Eventos traumáticos
+              </motion.li>
+              <motion.li
+                variants={fadeIn("right", "tween", 1.2, 1)}
+                className="text-left p-2 "
+              >
+                Desenvolvimento Emocional
+              </motion.li>
+              <motion.li
+                variants={fadeIn("right", "tween", 1.4, 1)}
+                className="text-left p-2 "
+              >
+                Distúrbios alimentares
+              </motion.li>
+              <motion.li
+                variants={fadeIn("right", "tween", 1.6, 1)}
+                className="text-left p-2 "
+              >
+                Períodos de Transição
+              </motion.li>
+              <motion.li
+                variants={fadeIn("right", "tween", 1.8, 1)}
+                className="text-left p-2 "
+              >
+                Crescimento e desenvolvimento pessoal
+              </motion.li>
+              <motion.li
+                variants={fadeIn("right", "tween", 2, 1)}
+                className="text-left p-2 "
+              >
+                Questões existenciais
+              </motion.li>
+            </motion.ul>
+          </div>
+        </div>
+      </motion.div>
+
       <motion.div
         variants={fadeIn("down", "tween", 0.6, 1)}
         className="flex flex-col w-full items-center "

@@ -9,10 +9,10 @@ const About = () => {
   return (
     <section
       id="About"
-      className="relative z-10 lg:[200px] flex flex-col text-center text-cyan-700 "
+      className="relative min-h-[95vh] z-10 text-center text-cyan-700 flex flex-col justify-center items-center"
     >
       {/* Top border */}
-      <div className="relative w-full h-[65px] md:h-[100px] bg-cyan-700">
+      <div className="absolute top-0 w-full h-[65px] md:h-[100px] bg-cyan-700">
         <div className="absolute -bottom-[2px] left-0 w-full overflow-hidden">
           <svg
             className="relative block h-[20px] lg:h-[40px] w-full"
@@ -33,7 +33,7 @@ const About = () => {
       <motion.div
         initial="hidden"
         whileInView="show"
-        className="max-w-[1240px] m-auto  my-[120px] px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] border-[1px] border-orange-100 bg-white shadow-lg"
+        className="max-w-[1240px] m-auto my-[120px] px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] border-[1px] border-orange-100 bg-white shadow-lg"
       >
         {/* Title */}
         <motion.h1
@@ -45,7 +45,7 @@ const About = () => {
         <div>
           <motion.p
             variants={fadeIn("down", "tween", 0.2, 1)}
-            className="text-justify lg:text-left p-2"
+            className="text-justify   p-2"
           >
             Olá! Sou a Marta, uma psicóloga dedicada ao crescimento pessoal e ao
             desenvolvimento saudável das relações interpessoais. Com uma vasta
@@ -56,7 +56,7 @@ const About = () => {
           </motion.p>
           <motion.p
             variants={fadeIn("down", "tween", 0.3, 1)}
-            className="text-justify lg:text-left p-2"
+            className="text-justify   p-2"
           >
             Sou apaixonada por compreender a complexidade da mente humana e, ao
             longo dos anos, tenho mergulhado profundamente na psicologia
@@ -64,7 +64,7 @@ const About = () => {
           </motion.p>
           <motion.p
             variants={fadeIn("down", "tween", 0.4, 1)}
-            className="text-justify lg:text-left p-2"
+            className="text-justify   p-2"
           >
             Atualmente, estou focada na minha especialização em Psicoterapia
             Relacional, uma abordagem que valoriza a importância das relações
