@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section
       id="About"
-      className="relative z-10 h-screen pb-[120px] lg:[200px] flex flex-col text-center text-cyan-700 "
+      className="relative z-10 lg:[200px] flex flex-col text-center text-cyan-700 "
     >
       {/* Top border */}
       <div className="relative w-full h-[100px] bg-cyan-700">
@@ -33,7 +33,7 @@ const About = () => {
       <motion.div
         initial="hidden"
         whileInView="show"
-        className="max-w-[1240px] m-auto px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] border-[1px] border-cyan-700 bg-white shadow-lg"
+        className="max-w-[1240px] m-auto  my-[120px] px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] border-[1px] border-orange-100 bg-white shadow-lg"
       >
         {/* Title */}
         <motion.h1
@@ -78,7 +78,7 @@ const About = () => {
           className="flex flex-col w-full items-center my-12"
         >
           <Link
-            href="/about"
+            href="/#contact"
             className=" p-2 text-lg shadow-md text-sky-50 shadow-gray-400   bg-cyan-700"
           >
             Conhecer a Marta
