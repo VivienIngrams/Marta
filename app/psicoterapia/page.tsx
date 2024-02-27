@@ -67,6 +67,7 @@ const Psicoterapia = () => {
             jornada emocional.
           </motion.p>
         </div>
+
         <motion.div
           variants={fadeIn("down", "tween", 0.6, 1)}
           className="flex flex-col w-full items-center my-12"
@@ -140,7 +141,7 @@ const Psicoterapia = () => {
       <motion.div
         initial="hidden"
         whileInView="show"
-        className="max-w-[1240px] mx-auto py-12 my-12 px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] text-sky-50 bg-cyan-700 border-[1px] border-orange-100 shadow-lg"
+        className="max-w-[1240px] mx-auto py-12 my-12 px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] xl:w-[65vw] text-sky-50 bg-cyan-700 border-[1px] border-orange-100 shadow-lg"
       >
         <div className="text-md lg:text-lg xl:m-10  xl:text-xl">
           <motion.p
@@ -231,7 +232,7 @@ const Psicoterapia = () => {
           href="/#contact"
           className="mb-24 p-2 text-lg shadow-md text-sky-50 shadow-gray-400   bg-cyan-700"
         >
-          Conctactar a Marta
+          Contactar a Marta
         </Link>
       </motion.div>
     </section>

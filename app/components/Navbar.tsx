@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
         setTextColor("text-cyan-700");
       } else {
         // For other pages, check scroll position
-        if (window.scrollY >= 100) {
+        if (window.scrollY >= 60) {
           // Change text color to cyan-700 if scrolled down more than 100 pixels
           setTextColor("text-cyan-700");
         } else {
@@ -94,7 +94,7 @@ const Navbar: React.FC = () => {
               </Link>
               <Link href="/#contact">
                 <li className="ml-10 hover:border-b">
-                  Contact
+                  Contacto
                 </li>
               </Link>
             </ul>

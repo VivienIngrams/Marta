@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { fadeIn } from "@/utils/motion";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsTelephoneFill, BsInstagram } from "react-icons/bs";
-import { TypingText } from "../components/CustomTexts";
 import ContactForm from "../components/ContactForm";
 
 const Contact: React.FC = () => {
