@@ -40,7 +40,7 @@ const Services = () => {
         {/* Title */}
         <motion.h1
           variants={fadeIn("down", "tween", 0, 1)}
-          className="big-first-letter max-w-[520px] lg:leading-[40px] text-3xl lg:text-6xl text-cyan-700 my-12  uppercase text-center"
+          className="big-first-letter max-w-[520px] leading-[0.7em] text-3xl lg:text-6xl text-cyan-700 my-12  uppercase text-center"
         >
           Desenvolvimento pessoal
         </motion.h1>
@@ -60,12 +60,12 @@ const Services = () => {
       </motion.div>
 
       {/* Second section */}
-      <div className="flex flex-col min-h-screen lg:w-[80vw] xl:mx-auto my-12">
+      <div className="flex flex-col min-h-screen w-[95vw] md:w-[90vw]  lg:w-[80vw] mx-auto my-12">
         <div className="flex flex-col justify-end items-end">
           <motion.div
             initial="hidden"
             whileInView="show"
-            className=" py-12 my-12  px-[6vw] mx-auto xl:m-0 w-[95vw] md:w-[90vw] xl:w-[40vw] border-[1px] border-orange-100 bg-white shadow-lg"
+            className=" py-12 my-12 px-[10vw] xl:px-[6vw] mx-auto xl:m-0 xl:w-[40vw] border-[1px] border-orange-100 bg-white shadow-lg"
           >
             <div className="w-full h-full flex justify-center items-center ">
               <motion.p
@@ -95,7 +95,7 @@ const Services = () => {
           <motion.div
             initial="hidden"
             whileInView="show"
-            className="xl:relative py-16 my-12 xl:m-0 px-[6vw] m-auto w-[95vw] md:w-[90vw] xl:w-[40vw] border-[1px] border-orange-100 bg-white shadow-xl"
+            className="xl:relative py-16 my-12 xl:m-0 px-[10vw] xl:px-[6vw] m-auto xl:w-[40vw] border-[1px] border-orange-100 bg-white shadow-xl"
           >
             <div className=" xl:bottom-0 xl:right-0 w-full h-full flex justify-center items-center ">
               <motion.p
@@ -151,14 +151,14 @@ const Services = () => {
         {/* Title */}
         <motion.h1
           variants={fadeIn("down", "tween", 0, 1)}
-          className="big-first-letter lg:leading-[40px] text-3xl lg:text-6xl text-cyan-700 mt-16  uppercase text-center"
+          className="big-first-letter leading-[0.7em] text-3xl lg:text-6xl text-cyan-700 mt-16  uppercase text-center"
         >
           workshops
           <br />e
         </motion.h1>
         <motion.h1
           variants={fadeIn("down", "tween", 0, 1)}
-          className="big-first-letter max-w-[600px] lg:leading-[40px] text-3xl lg:text-6xl text-cyan-700 mb-16  uppercase text-center"
+          className="big-first-letter max-w-[600px] leading-[0.7em]  text-3xl lg:text-6xl text-cyan-700 mb-16  uppercase text-center"
         >
           treinamento comportamental
         </motion.h1>
@@ -209,7 +209,7 @@ const Services = () => {
           <motion.p
             variants={fadeIn("down", "tween", 0.2, 1)}
             
-            className="text-center text-lg lg:text-xl xl:text-2xl my-10 xl:my-24 max-w-[1240px] m-auto pb-8  w-[95vw] md:w-[90vw] lg:w-[80vw] xl:w-[65vw]"
+            className="text-justify text-md md:text-lg lg:text-xl xl:text-2xl m-10 xl:m-24 max-w-[1240px] px-[10vw] pb-8  w-[95vw] md:w-[90vw] lg:w-[80vw] xl:w-[65vw]"
           >
             O meu compromisso não termina quando a sessão termina; estarei aqui
             para fornecer suporte contínuo e orientação à medida que embarca

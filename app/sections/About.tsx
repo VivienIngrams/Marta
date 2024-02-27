@@ -49,7 +49,7 @@ const About = () => (
       >
     
         <motion.div className="w-full flex flex-col items-center justify-center ">
-          <div className="lg:pb-12 tracking-widest uppercase  text-center big-first-letter">
+          <div className="lg:pb-12 xs:tracking-widest uppercase  text-center big-first-letter">
             <TypingText title="Marta Guimarães" textStyles="text-center" />
           </div>
         </motion.div>

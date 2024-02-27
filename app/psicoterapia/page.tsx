@@ -40,7 +40,7 @@ const Psicoterapia = () => {
         {/* Title */}
         <motion.h1
           variants={fadeIn("down", "tween", 0, 1)}
-          className="big-first-letter max-w-[400px] lg:leading-[40px] text-3xl lg:text-6xl text-cyan-700 my-12  uppercase text-center"
+          className="big-first-letter max-w-[400px] leading-[0.7em] text-3xl lg:text-6xl text-cyan-700 my-12  uppercase text-center"
         >
           Psicoterapia <span className="big-first-letter">Relacional</span>
         </motion.h1>

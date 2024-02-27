@@ -118,9 +118,9 @@ const Navbar: React.FC = () => {
           }
         >
           <div className="w-full">
-            <div className="relative flex w-full p-4 items-center justify-between z-200">
+            <div className="relative flex w-full items-center justify-between z-200">
               <Link href="/" onClick={handleNav}>
-                <Image src="/Logo.png" alt="Logo" width={150} height={150} />
+                <Image src="/NewLogoDark.png" alt="Logo" width={300} height={180} />
               </Link>
               <div
                 onClick={handleNav}
@@ -152,7 +152,7 @@ const Navbar: React.FC = () => {
                   Outros Serviços
                 </li>
               </Link>
-              <Link href="/#Contact">
+              <Link href="/#contact">
                 <li className="py-5 hover:border-b" onClick={handleNav}>
                   Contacto
                 </li>
