@@ -5,8 +5,8 @@ import nodemailer from "nodemailer";
 // Handles POST requests to /api
 
 export async function POST(request) {
-  const user = process.env.NEXT_PUBLIC_USER;
-  const pass = process.env.NEXT_PUBLIC_PASS;
+//   const user = process.env.NEXT_PUBLIC_USER;
+//   const pass = process.env.NEXT_PUBLIC_PASS;
 
   
   try {
@@ -24,10 +24,10 @@ export async function POST(request) {
       port: 465,
       secure: true,
       tls : { rejectUnauthorized: false },
-      auth: {
-        user: user,
-        pass: pass,
-      },
+    //   auth: {
+    //     user: user,
+    //     pass: pass,
+    //   },
     });
 
     const mail = await transporter.sendMail({
