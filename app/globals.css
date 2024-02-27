@@ -9,6 +9,11 @@
   scroll-behavior: smooth;
 }
 
+.big-first-letter::first-letter {
+  font-size: 1.25em; /* You can adjust this value as needed */
+  font-weight: normal; /* Or adjust the font-weight as per your design */
+}
+
 
 
 

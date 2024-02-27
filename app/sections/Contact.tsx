@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
       >
         <h1
           // variants={fadeIn("down", "tween", 0, 1)}
-          className=" text-3xl lg:text-6xl text-cyan-700 my-12 lg:my-20 uppercase  text-center"
+          className=" text-3xl lg:text-6xl text-cyan-700 my-12 lg:my-20 uppercase big-first-letter text-center"
         >
           Contacto
         </h1>
@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
         <div className="md:grid md:grid-cols-2 lg:mx-12 m-auto">
           <motion.div
             variants={fadeIn("right", "tween", 0, 0.7)}
-            className="p-2 md:h-[20vh] lg:h-[30vh] flex md:justify-start"
+            className="p-2 md:h-[20vh] lg:h-[30vh] flex md:justify-start text-justify"
           >
             <div>
               Estou ansiosa por trabalhar consigo e ajudar a criar uma jornada
@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
           </motion.div>
           <motion.div
             variants={fadeIn("right", "tween", 0, 0.7)}
-            className="p-2 md:h-[20vh] lg:h-[30vh] flex flex-col md:justify-end"
+            className="p-2 md:h-[20vh] lg:h-[30vh] flex flex-col md:justify-end text-justify"
           >
             <div>
               Não hesite em entrar em contacto para agendar uma consulta ou para

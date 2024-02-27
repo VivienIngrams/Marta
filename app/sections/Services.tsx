@@ -22,7 +22,7 @@ const Services = () => {
                 >
                    <motion.h1
                     variants={fadeIn("left", "tween", 0.1, 1)}
-                    className="uppercase text-3xl xl:text-3xl p-2 xl:p-4"
+                    className="uppercase text-3xl xl:text-3xl p-2 xl:p-4 big-first-letter"
                   >
                     Serviços
                   </motion.h1>

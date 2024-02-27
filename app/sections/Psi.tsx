@@ -22,13 +22,13 @@ const Psi = () => {
                 >
                   <motion.h1
                     variants={fadeIn("left", "tween", 0.1, 1)}
-                    className="uppercase text-3xl xl:text-3xl p-2 xl:p-4"
+                    className="uppercase text-3xl xl:text-3xl p-2 xl:p-4 big-first-letter"
                   >
                     Psicoterapia
                   </motion.h1>
                   <motion.p
                     variants={fadeIn("left", "tween", 0.3, 1)}
-                    className="p-2 xl:p-4   leading-tight "
+                    className="p-2 xl:p-4  text-justify leading-tight "
                   >
                     A minha abordagem psicoterapêutica visa criar um ambiente
                     acolhedor, onde juntos, com base numa relação segura,
@@ -37,7 +37,7 @@ const Psi = () => {
                   </motion.p>
                   <motion.p
                     variants={fadeIn("left", "tween", 0.5, 1)}
-                    className="p-2 xl:p-4   leading-tight "
+                    className="p-2 xl:p-4 text-justify  leading-tight "
                   >
                     Quer esteja em busca de crescimento pessoal ou esteja a
                     enfrentar dificuldades específicas, estou aqui para oferecer
