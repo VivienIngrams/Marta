@@ -82,62 +82,65 @@ const Psicoterapia = () => {
       </motion.div>
 
       {/* Middle section */}
-      <div className="xl:relative min-h-screen xl:w-[80vw] xl:mx-auto">
-        <motion.div
-          initial="hidden"
-          whileInView="show"
-          className="xl:absolute xl:top-0 xl:left-0 py-12 my-12 xl:my-0 px-[10vw] mx-auto w-[95vw] md:w-[90vw] xl:w-[40vw] border-[1px] border-orange-100 bg-white shadow-lg"
-        >
-          <div className="w-full h-full flex justify-center items-center ">
-            <motion.p
-              variants={fadeIn("down", "tween", 0.3, 1)}
-              className=" text-justify p-2 text-md lg:text-lg   xl:text-xl"
-            >
-              No ambito da psicoterapia relacional, incentivo uma profunda
-              compreensão das emoções, estilos de comunicação e padrões de
-              apego, visando promover a autoconsciência e cultivar
-              relacionamentos mais saudáveis. O meu compromisso é proporcionar
-              uma experiência terapêutica holística e transformadora.
-            </motion.p>
-          </div>
-        </motion.div>
-
+      <div className="flex flex-col min-h-screen lg:w-[80vw] xl:mx-auto">
+        <div className="flex flex-col justify-start items-start">
+          <motion.div
+            initial="hidden"
+            whileInView="show"
+            className=" py-12 my-12  px-[6vw] mx-auto xl:m-0 w-[95vw] md:w-[90vw] xl:w-[40vw] border-[1px] border-orange-100 bg-white shadow-lg"
+          >
+            <div className="w-full h-full flex justify-center items-center ">
+              <motion.p
+                variants={fadeIn("down", "tween", 0.3, 1)}
+                className=" text-justify xl:text-left xl:leading-tight p-2 text-md lg:text-lg   xl:text-xl"
+              >
+                No ambito da psicoterapia relacional, incentivo uma profunda
+                compreensão das emoções, estilos de comunicação e padrões de
+                apego, visando promover a autoconsciência e cultivar
+                relacionamentos mais saudáveis. O meu compromisso é proporcionar
+                uma experiência terapêutica holística e transformadora.
+              </motion.p>
+            </div>
+          </motion.div>
+        </div>
         <motion.div
           variants={fadeIn("down", "tween", 0.3, 1)}
-          className="xl:absolute xl:translate-x-[50%] xl:translate-y-[50%]  mx-auto"
+          className="xl:-my-8 z-100 mx-auto"
         >
           <Image
             src="https://images.unsplash.com/photo-1512406926044-c2b194f3975a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvYWNoaW5nfGVufDB8MHwwfHx8MA%3D%3D"
             height={500}
             width={600}
             alt="Psicoterapia"
-            className=" w-[95vw] md:w-[90vw] m-auto max-w-[500px]  border-[1px] border-orange-100 bg-white shadow-lg"
+            className=" w-[95vw] md:w-[90vw] xl:w-[40vw] m-auto max-w-[500px]  border-[1px] border-orange-100 bg-white shadow-lg"
           />
         </motion.div>
-        <motion.div
-          initial="hidden"
-          whileInView="show"
-          className="xl:absolute xl:bottom-0 xl:right-0 py-12 my-12 xl:my-0 px-[10vw] m-auto w-[95vw] md:w-[90vw] xl:w-[40vw] border-[1px] border-orange-100 bg-white shadow-xl"
-        >
-          <div className="w-full h-full flex justify-center items-center ">
-            <motion.p
-              variants={fadeIn("down", "tween", 0.3, 1)}
-              className=" text-justify p-2 text-md lg:text-lg   xl:text-xl"
-            >
-              Seja para lidar com desafios emocionais ou melhorar as suas
-              habilidades de relacionamento, os meus serviços de psicoterapia
-              relacional estão aqui para ajudar a construir conexões mais
-              gratificantes consigo mesmo e com os outros. Explore a jornada
-              rumo ao crescimento pessoal e à saúde mental comigo.
-            </motion.p>
-          </div>
-        </motion.div>
+        <div className="flex flex-col justify-end items-end z-1">
+          <motion.div
+            initial="hidden"
+            whileInView="show"
+            className="xl:relative py-12 my-12 xl:m-0 px-[6vw] m-auto w-[95vw] md:w-[90vw] xl:w-[40vw] border-[1px] border-orange-100 bg-white shadow-xl"
+          >
+            <div className=" xl:bottom-0 xl:right-0 w-full h-full flex justify-center items-center ">
+              <motion.p
+                variants={fadeIn("down", "tween", 0.3, 1)}
+                className=" text-justify xl:text-right p-2 text-md lg:text-lg xl:leading-tight  xl:text-xl"
+              >
+                Seja para lidar com desafios emocionais ou melhorar as suas
+                habilidades de relacionamento, os meus serviços de psicoterapia
+                relacional estão aqui para ajudar a construir conexões mais
+                gratificantes consigo mesmo e com os outros. Explore a jornada
+                rumo ao crescimento pessoal e à saúde mental comigo.
+              </motion.p>
+            </div>
+          </motion.div>
+        </div>
       </div>
       {/* Last section */}
       <motion.div
         initial="hidden"
         whileInView="show"
-        className="max-w-[1240px] m-auto py-12 my-12 px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] text-sky-50 bg-cyan-700 border-[1px] border-orange-100 shadow-lg"
+        className="max-w-[1240px] mx-auto py-12 my-12 px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] text-sky-50 bg-cyan-700 border-[1px] border-orange-100 shadow-lg"
       >
         <div className="text-md lg:text-lg xl:m-10  xl:text-xl">
           <motion.p

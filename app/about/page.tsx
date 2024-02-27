@@ -42,10 +42,10 @@ const About = () => {
         >
           Sobre Marta
         </motion.h1>
-        <div>
+        <div className="text-md lg:text-lg xl:leading-tight  xl:text-xl">
           <motion.p
             variants={fadeIn("down", "tween", 0.2, 1)}
-            className="text-justify   p-2"
+            className="text-justify p-4"
           >
             Olá! Sou a Marta, uma psicóloga dedicada ao crescimento pessoal e ao
             desenvolvimento saudável das relações interpessoais. Com uma vasta
@@ -56,7 +56,7 @@ const About = () => {
           </motion.p>
           <motion.p
             variants={fadeIn("down", "tween", 0.3, 1)}
-            className="text-justify   p-2"
+            className="text-justify   p-4"
           >
             Sou apaixonada por compreender a complexidade da mente humana e, ao
             longo dos anos, tenho mergulhado profundamente na psicologia
@@ -64,7 +64,7 @@ const About = () => {
           </motion.p>
           <motion.p
             variants={fadeIn("down", "tween", 0.4, 1)}
-            className="text-justify   p-2"
+            className="text-justify   p-4"
           >
             Atualmente, estou focada na minha especialização em Psicoterapia
             Relacional, uma abordagem que valoriza a importância das relações
