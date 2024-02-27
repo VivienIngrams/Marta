@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   return (
     <footer>
       <div className="relative flex flex-col items-center -my-10 bg-cyan-700 font-marcellus font-light text-xs lg:text-xl text-sky-50">
-      <div className="absolute -top-[2px] left-0 w-full overflow-hidden">
+      <div className="absolute -top-[4px] left-0 w-full overflow-hidden">
   <svg
     className="relative block h-[20px] lg:h-[40px] w-full transform rotate-180"
     data-name="Layer 1"
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
             alt="Logo"
             width={250}
             height={100}
-            className="pt-6 object-cover overflow-hidden h-[100px] w-[340px] lg:h-[120px] lg:w-[400px]"
+            className="pt-6 object-cover overflow-hidden h-[100px] w-[340px]"
           />
           {/* <div className="flex flex-col items-start justify-center p-1">
             <p className="py-2 lg:hidden">+351 914 723 959</p>

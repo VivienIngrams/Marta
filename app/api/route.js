@@ -5,8 +5,8 @@ import nodemailer from "nodemailer";
 // Handles POST requests to /api
 
 export async function POST(request) {
-  const user = process.env.NEXT_PUBLIC_NODEMAILER_USER;
-  const pass = process.env.NEXT_PUBLIC_NODEMAILER_PASS;
+  const user = process.env.NODEMAILER_USER;
+  const pass = process.env.NODEMAILER_PASS;
 
   
   try {
