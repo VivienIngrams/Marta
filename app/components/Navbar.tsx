@@ -28,17 +28,28 @@ const Navbar: React.FC = () => {
   }, []);
 
   useEffect(() => {
+    // Function to handle text color based on path and scroll position
     const handleTextColor = () => {
-      if (path !== "/") {
+      // Check if it's the homepage
+      if (path === "/") {
+        // Change text color to cyan-700 on the homepage
+        setTextColor("text-cyan-700");
+      } else {
+        // For other pages, check scroll position
         if (window.scrollY >= 100) {
+          // Change text color to cyan-700 if scrolled down more than 100 pixels
           setTextColor("text-cyan-700");
         } else {
-          setTextColor("text-sky-50")
+          // Change text color to sky-50 if not scrolled down enough
+          setTextColor("text-sky-50");
         }
-       } else {
-          setTextColor("text-cyan-700");
-       }
+      }
     };
+  
+    // Immediately set the text color based on the initial path
+    handleTextColor();
+  
+    // Add event listener for scrolling
     window.addEventListener("scroll", handleTextColor);
     return () => {
       window.removeEventListener("scroll", handleTextColor);
