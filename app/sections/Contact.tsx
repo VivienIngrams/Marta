@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
   return (
     <div
       id="contact"
-      className="w-full lg:min-h-screen font-raj pb-20  text-sm lg:text-xl text-cyan-700"
+      className="w-full lg:min-h-screen font-raj py-20  text-sm lg:text-xl text-cyan-700"
     >
       <motion.div
         initial="hidden"

@@ -49,7 +49,7 @@ const Psi = () => {
                   >
                     <Link
                       href="/about"
-                      className=" p-2 text-base shadow-md text-sky-50 shadow-gray-400   bg-cyan-700"
+                      className=" p-2 text-lg shadow-md text-sky-50 shadow-gray-400   bg-cyan-700"
                     >
                       Saber mais
                     </Link>

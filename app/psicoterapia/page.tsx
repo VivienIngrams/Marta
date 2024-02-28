@@ -141,9 +141,9 @@ const Psicoterapia = () => {
       <motion.div
         initial="hidden"
         whileInView="show"
-        className="max-w-[1240px] mx-auto py-12 my-12 px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] xl:w-[65vw] text-sky-50 bg-cyan-700 border-[1px] border-orange-100 shadow-lg"
+        className="max-w-[1240px] mx-auto py-12 my-12 px-[10vw] w-[95vw] md:w-[90vw] lg:w-[80vw] xl:w-[55vw] text-sky-50 bg-cyan-700 border-[1px] border-orange-100 shadow-lg"
       >
-        <div className="text-md lg:text-lg xl:m-10  xl:text-xl">
+        <div className="text-md lg:text-lg  xl:text-xl">
           <motion.p
             variants={fadeIn("down", "tween", 0.2, 1)}
             className="text-left p-4"

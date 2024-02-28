@@ -171,7 +171,7 @@ const Services = () => {
             {/* Title */}
             <motion.h1
               variants={fadeIn("down", "tween", 0, 1)}
-              className=" text-2xl lg:text-4xl text-cyan-700 my-12 lg:my-24  text-left"
+              className=" text-2xl lg:text-4xl text-cyan-700 my-12 lg:mt-16  text-left"
             >
               Benefícios de Participar:
             </motion.h1>
