@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
           alt="Logo"
           width={250}
           height={100}
-          className="pt-2 object-cover overflow-hidden h-[100px] w-[340px]"
+          className="pt-2 object-cover overflow-hidden h-[90px] w-[300px]"
         />
 
         <div className=" z-0 flex justify-between -mt-5 w-full ">
