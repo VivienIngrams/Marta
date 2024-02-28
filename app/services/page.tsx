@@ -40,7 +40,7 @@ const Services = () => {
         {/* Title */}
         <motion.h1
           variants={fadeIn("down", "tween", 0, 1)}
-          className="big-first-letter max-w-[520px] leading-[0.7em] text-3xl lg:text-6xl text-cyan-700 my-12  uppercase text-center"
+          className="big-first-letter max-w-[520px] text-3xl lg:text-6xl leading-[0.7em] lg:leading-[0.7em]  text-cyan-700 my-12  uppercase text-center"
         >
           Desenvolvimento pessoal
         </motion.h1>
@@ -60,7 +60,7 @@ const Services = () => {
       </motion.div>
 
       {/* Second section */}
-      <div className="flex flex-col min-h-screen w-[95vw] md:w-[90vw]  lg:w-[80vw] mx-auto my-12">
+      <div className="flex flex-col xl:min-h-screen w-[95vw] md:w-[90vw]  lg:w-[80vw] mx-auto my-12">
         <div className="flex flex-col justify-end items-end">
           <motion.div
             initial="hidden"
@@ -151,14 +151,14 @@ const Services = () => {
         {/* Title */}
         <motion.h1
           variants={fadeIn("down", "tween", 0, 1)}
-          className="big-first-letter leading-[0.7em] text-3xl lg:text-6xl text-cyan-700 mt-16  uppercase text-center"
+          className="big-first-letter leading-[0.7em] lg:leading-[0.7em] text-3xl lg:text-6xl text-cyan-700 mt-16  uppercase text-center"
         >
           workshops
           <br />e
         </motion.h1>
         <motion.h1
           variants={fadeIn("down", "tween", 0, 1)}
-          className="big-first-letter max-w-[600px] leading-[0.7em]  text-3xl lg:text-6xl text-cyan-700 mb-16  uppercase text-center"
+          className="big-first-letter max-w-[600px] leading-[0.7em] lg:leading-[0.7em]  text-3xl lg:text-6xl text-cyan-700 mb-16  uppercase text-center"
         >
           treinamento comportamental
         </motion.h1>

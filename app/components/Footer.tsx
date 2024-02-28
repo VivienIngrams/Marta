@@ -18,8 +18,8 @@ const Footer: React.FC = () => {
         >
           <defs>
             <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-              <stop stop-color="rgba(14, 116, 144, 1)" offset="0%"></stop>
-              <stop stop-color="rgba(227, 237, 246, 1)" offset="100%"></stop>
+              <stop stopColor="rgba(14, 116, 144, 1)" offset="0%"></stop>
+              <stop stopColor="rgba(227, 237, 246, 1)" offset="100%"></stop>
             </linearGradient>
           </defs>
           <path
@@ -29,8 +29,8 @@ const Footer: React.FC = () => {
           ></path>
           <defs>
             <linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0">
-              <stop stop-color="rgba(14, 116, 144, 1)" offset="0%"></stop>
-              <stop stop-color="rgba(227, 237, 246, 1)" offset="100%"></stop>
+              <stop stopColor="rgba(14, 116, 144, 1)" offset="0%"></stop>
+              <stop stopColor="rgba(227, 237, 246, 1)" offset="100%"></stop>
             </linearGradient>
           </defs>
           <path
@@ -40,8 +40,8 @@ const Footer: React.FC = () => {
           ></path>
           <defs>
             <linearGradient id="sw-gradient-2" x1="0" x2="0" y1="1" y2="0">
-              <stop stop-color="rgba(14, 116, 144, 1)" offset="0%"></stop>
-              <stop stop-color="rgba(14, 116, 144, 1)" offset="100%"></stop>
+              <stop stopColor="rgba(14, 116, 144, 1)" offset="0%"></stop>
+              <stop stopColor="rgba(14, 116, 144, 1)" offset="100%"></stop>
             </linearGradient>
           </defs>
           <path
