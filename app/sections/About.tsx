@@ -6,7 +6,10 @@ import { TypingText } from "../components/CustomTexts";
 import { fadeIn } from "@/utils/motion";
 
 const About = () => (
-  <section id="About" className="relative z-10 min-h-screen text-center text-cyan-700 ">
+  <section
+    id="About"
+    className="relative z-10 min-h-screen text-center text-cyan-700 "
+  >
     <div className="relative w-full h-[200px] bg-cyan-700">
       <div className="absolute -bottom-[2px] left-0 w-full overflow-hidden">
         <svg
@@ -47,21 +50,19 @@ const About = () => (
         viewport={{ once: false, amount: 0.25 }}
         className="px-2 gap-8 py-10 md:max-w-[80%] mx-auto"
       >
-    
         <motion.div className="w-full flex flex-col items-center justify-center ">
           <div className="lg:pb-12 xs:tracking-widest uppercase  text-center big-first-letter">
             <TypingText title="Marta Guimarães" textStyles="text-center" />
           </div>
         </motion.div>
         <div className="py-12 w-full ">
-        
           <motion.p
             variants={fadeIn("up", "tween", 1.5, 0.8)}
             className="text-center max-w-[80%] mx-auto lg:text-2xl "
           >
-            Marta Guimarães é uma profissional comprometida que integra a
-            abordagem psicológica com estratégias de coaching para ajudá-lo a
-            atingir seus objetivos e superar desafios.
+            Marta Guimarães, psicóloga comprometida que integra a abordagem
+            relacional com estratégias complementares no sentido de uma vida
+            mais plena e mentalmente mais saudável.
           </motion.p>
         </div>
         {/* Button */}
