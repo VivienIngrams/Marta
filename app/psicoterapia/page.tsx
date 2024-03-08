@@ -53,7 +53,7 @@ const Psicoterapia = () => {
           >
             A psicoterapia relacional é uma abordagem terapêutica que destaca a
             importância das relações interpessoais na promoção do bem-estar
-            mental e emocional. Em meu consultório, reconheço que as conexões
+            mental e emocional. No meu consultório, reconheço que as conexões
             que estabelecemos com os outros desempenham um papel crucial no
             desenvolvimento pessoal e na saúde psicológica.
           </motion.p>
@@ -61,9 +61,9 @@ const Psicoterapia = () => {
             variants={fadeIn("down", "tween", 0.3, 1)}
             className="text-justify  p-2"
           >
-            Como psicólogo especializado em psicoterapia relacional, trabalho em
-            parceria com você, oferecendo um ambiente seguro e empático para
-            explorar como os relacionamentos passados e presentes moldam sua
+            Como psicóloga especializada em psicoterapia relacional, trabalho em
+            parceria consigo, oferecendo um ambiente seguro e empático para
+            explorar como os relacionamentos passados e presentes moldam a sua
             jornada emocional.
           </motion.p>
         </div>
